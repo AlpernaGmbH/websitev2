@@ -23,7 +23,7 @@ export const home = {
     zeilen: [[{ t: 'Dein digitaler' }], [{ t: 'Aufstieg', em: true }, { t: ' startet hier.' }]] as Teil[][],
     lead: 'Website, Google-Profil, Social Media: aus einer Hand, für KMU in der Ostschweiz.',
     ctaPrimaer: { label: 'Erstgespräch vereinbaren', href: '#kontakt' } as Link,
-    ctaSekundaer: { label: 'Projekte ansehen', href: '/projekte' } as Link,
+    ctaSekundaer: { label: 'Gratis Marketing-Check', href: '/check' } as Link,
     gruender: { namen: 'Andrej Good & Leander Züst', rolle: 'Gründer von Alperna' },
   },
   ticker: ['Website', 'Google-Profil', 'Social Media', 'Onlineshop', 'Online-Buchung', 'Google Ads'],
@@ -368,12 +368,6 @@ export const checkPage = {
     kontakt: { label: 'Zum Kontakt', href: '/kontakt' } as Link,
   },
   mehrTools: 'Mehr Tools',
-  teaser: {
-    label: 'Gratis Marketing-Check',
-    h2: [{ t: 'Wie sichtbar bist du ' }, { t: 'online?', em: true }] as Teil[],
-    text: 'Gib deine Website ein. In rund 30 Sekunden siehst du, wo dein Betrieb bei Website, Google und Social Media steht, und was als Nächstes am meisten bringt.',
-    cta: { label: 'Check starten', href: '/check' } as Link,
-  },
 }
 
 export type LeistungSlug = 'website' | 'google-profil' | 'social-media' | 'onlineshop' | 'online-buchung' | 'google-ads'

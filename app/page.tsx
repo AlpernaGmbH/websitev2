@@ -4,11 +4,10 @@ import { ContactForm } from '@/components/ContactForm'
 import { Headline } from '@/components/Headline'
 import { ArrowRight } from '@/components/Icons'
 import { HeroTopo } from '@/components/HeroTopo'
-import { MehrTools } from '@/components/MehrTools'
 import { JsonLd } from '@/components/JsonLd'
 import { Statement } from '@/components/Statement'
 import { TeamSection } from '@/components/TeamSection'
-import { checkPage, home, kontakt, whatsappText } from '@/content/texte'
+import { home, kontakt, whatsappText } from '@/content/texte'
 import { bild } from '@/lib/images'
 import { faqLd, seite } from '@/lib/seo'
 import { site } from '@/site.config'
@@ -117,26 +116,6 @@ export default function Startseite() {
             </li>
           ))}
         </ol>
-      </section>
-
-      {/* Marketing-Check */}
-      <section className="check-teaser container" aria-labelledby="check-h">
-        <div className="check-teaser__box on-dark">
-          <div className="check-teaser__copy">
-            <p className="mono label">{checkPage.teaser.label}</p>
-            <h2 id="check-h" className="check-teaser__title">
-              <Headline parts={checkPage.teaser.h2} />
-            </h2>
-            <p className="check-teaser__text">{checkPage.teaser.text}</p>
-          </div>
-          <div className="check-teaser__ctas">
-            <Link className="btn btn--light" href={checkPage.teaser.cta.href} data-track="cta_check">
-              {checkPage.teaser.cta.label}
-              <ArrowRight />
-            </Link>
-            <MehrTools className="btn btn--outline-light" />
-          </div>
-        </div>
       </section>
 
       {/* Warum Alperna */}

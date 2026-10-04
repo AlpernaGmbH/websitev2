@@ -15,7 +15,7 @@ Stand: 04.10.2026. Release 1 läuft als Vorschau auf Vercel (Projekt `alperna-we
 
 ## Stand vom Feedback am 04.10.2026
 - Hero entrümpelt (keine Region, Koordinaten, Gipfel, Scroll-Hinweis). Studium nur als «BWL in St. Gallen», «seit drei Jahren dabei» statt «frisch gegründet», Gym-Geschichte entfernt
-- Marketing-Check unter `/check` (Teaser auf der Startseite, Link im Footer). Knopf «Mehr Tools» ohne Ziel, der Link kommt in `site.config.ts` (`toolsUrl`)
+- Marketing-Check unter `/check`, als zweiter Hero-Knopf statt «Projekte ansehen», Link im Footer. Knopf «Mehr Tools» auf `/check` und im Ergebnis, ohne Ziel: der Link kommt in `site.config.ts` (`toolsUrl`)
 - Sechs Leistungsseiten unter `/leistungen/<slug>` mit Warum, Zahlen mit Quelle, Grafik, passenden Projekten. Google-Profil zeigt Zahlen aus den USA (keine Schweizer Quelle gefunden), beschriftet
 
 ## Neue Abhängigkeit
