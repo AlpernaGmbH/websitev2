@@ -23,7 +23,7 @@ export function BlogListe({ posts, kategorien, alleLabel }: { posts: ListePost[]
             <Link className="service service--post" href={`/blog/${p.slug}`}>
               <span className="service__num mono">{p.datum}</span>
               <div className="service__head">
-                <h3 className="service__title">{p.title}</h3>
+                <h2 className="service__title">{p.title}</h2>
                 <span className="service__tag mono">{p.kategorie}</span>
               </div>
             </Link>

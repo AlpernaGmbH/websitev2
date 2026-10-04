@@ -424,7 +424,7 @@
   .prose ul { margin: 0 0 1.2em; display: flex; flex-direction: column; gap: 0.5em; }
   .prose li { padding-left: 1.3em; position: relative; color: var(--ink-2); }
   .prose li::before { content: ''; position: absolute; left: 0; top: 0.8em; width: 8px; height: 2px; background: var(--accent); box-shadow: 0 0 0 1px var(--ink); }
-  .prose a { color: var(--ink); text-decoration-color: var(--accent); text-decoration-thickness: 3px; text-underline-offset: 0.18em; }
+  .prose a { color: var(--ink); font-weight: 500; text-decoration-color: var(--accent); text-decoration-thickness: 3px; text-underline-offset: 0.18em; }
   .prose strong { color: var(--ink); font-weight: 600; }
   .prose img { width: 100%; height: auto; border-radius: 14px; margin: 1.4em 0; border: 1px solid var(--line); }
   .author { max-width: 680px; margin: clamp(48px, 6vw, 80px) auto 0; padding-inline: var(--gutter); }

@@ -87,7 +87,7 @@ export function ContactForm({ idPrefix = 'kf' }: { idPrefix?: string }) {
       </fieldset>
       <div className="field" data-invalid={!!fehler.nachricht}>
         <label className="field__label mono" htmlFor={id('nachricht')}>{f.nachricht.label}</label>
-        <textarea id={id('nachricht')} name="nachricht" rows={4} placeholder={f.nachricht.platzhalter} required aria-invalid={!!fehler.nachricht} aria-describedby={fehler.nachricht ? id('nachricht-err') : undefined} />
+        <textarea id={id('nachricht')} name="nachricht" rows={4} maxLength={1900} placeholder={f.nachricht.platzhalter} required aria-invalid={!!fehler.nachricht} aria-describedby={fehler.nachricht ? id('nachricht-err') : undefined} />
         {fehler.nachricht && <span className="field__error" id={id('nachricht-err')}>{fehler.nachricht}</span>}
       </div>
       <div className="hp" aria-hidden="true">

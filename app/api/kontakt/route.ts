@@ -9,7 +9,7 @@ const schema = z.object({
   firma: z.string().trim().max(160).optional().default(''),
   email: z.string().trim().max(200).regex(/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/),
   themen: z.array(z.string().max(40)).max(8).optional().default([]),
-  nachricht: z.string().trim().min(1).max(4000),
+  nachricht: z.string().trim().min(1).max(1900), // Notion nimmt höchstens 2000 Zeichen pro Textblock
   website: z.string().max(200).optional().default(''), // Honigtopf: echte Besucher lassen das Feld leer
   einwilligung: z.literal(true),
 })

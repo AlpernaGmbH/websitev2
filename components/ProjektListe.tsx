@@ -19,7 +19,8 @@ type Props = {
   internationalText: string
 }
 
-function Raster({ projekte, start }: { projekte: ListeProjekt[]; start: number }) {
+function Raster({ projekte, start, ebene }: { projekte: ListeProjekt[]; start: number; ebene: 'h2' | 'h3' }) {
+  const Titel = ebene
   return (
     <ol className="pgrid">
       {projekte.map((p, i) => (
@@ -29,7 +30,7 @@ function Raster({ projekte, start }: { projekte: ListeProjekt[]; start: number }
             <div className="ptile__meta">
               <span className="ptile__num mono">{String(start + i + 1).padStart(2, '0')}</span>
               <div>
-                <h3 className="ptile__name">{p.name}</h3>
+                <Titel className="ptile__name">{p.name}</Titel>
                 <p className="ptile__tags mono">{p.art}</p>
               </div>
             </div>
@@ -54,14 +55,14 @@ export function ProjektListe({ projekte, filter, alleLabel, internationalH2, int
           </button>
         ))}
       </div>
-      <Raster projekte={regional} start={0} />
+      <Raster projekte={regional} start={0} ebene="h2" />
       {international.length > 0 && (
         <>
           <div className="list-sub">
             <h2>{internationalH2}</h2>
             <p>{internationalText}</p>
           </div>
-          <Raster projekte={international} start={regional.length} />
+          <Raster projekte={international} start={regional.length} ebene="h3" />
         </>
       )}
       {sichtbar.length === 0 && <p>Dazu gibt es noch kein Projekt.</p>}
