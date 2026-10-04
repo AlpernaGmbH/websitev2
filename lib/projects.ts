@@ -2,7 +2,6 @@ import raw from '@/data/projekte.json'
 import testimonials from '@/data/testimonials.json'
 
 export type Kennzahl = { wert: string; label: string }
-export type Schritt = { titel: string; wert: string | null; label: string | null; text: string[]; punkte: string[] }
 export type Baustein = 'website' | 'google-profil' | 'social-media' | 'video' | 'event'
 
 export type Projekt = {
@@ -16,14 +15,11 @@ export type Projekt = {
   kanaele: string[]
   kennzahlen: Kennzahl[]
   leistungen: string[]
-  ausgangslage: string
-  lieferung?: string
-  schritte: Schritt[]
-  zusatz?: { titel: string; text: string }
+  fall: string
+  umsetzung: string
   kundenLinks: { label: string; url: string }[]
-  cover: string | null
   logo: string | null
-  bilder: string[]
+  fotos: string[]
   zitat?: string
 }
 

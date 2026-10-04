@@ -6,6 +6,7 @@ import { Analytics } from '@/components/Analytics'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { JsonLd } from '@/components/JsonLd'
+import { RevealInit } from '@/components/RevealInit'
 import { global, home } from '@/content/texte'
 import { baseUrl, indexable, organisationLd } from '@/lib/seo'
 import './globals.css'
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <RevealInit />
         <JsonLd data={organisationLd()} />
         <Analytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? ''} aktiv={indexable} />
       </body>

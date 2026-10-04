@@ -23,6 +23,11 @@ Release 1 enthält nicht: CMS, Marketing-Check, Motion-Spielereien, Preisseite, 
 6. **Kein Telefon.** Anrufe werden nicht beantwortet. Kontakt über Formular, Calendly, WhatsApp, E-Mail. Kein `tel:`-Link.
 7. **Rechtstexte schreibt kein Claude.** Impressum und Datenschutz werden von Menschen angepasst (Formular, Resend, n8n, Notion, Vercel statt Framer, Schriften).
 
+## Texte
+- Basis ist der Prototyp, korrigiert nach Plan 5.4 und den Brand-Dokumenten. Nichts von der Framer-Seite kopieren.
+- Ausnahmen: Blogbeiträge 1:1 (SEO), Kundenzitate wörtlich, Impressum und Datenschutz bis zur Anpassung durch Menschen. Projekte: Fakten und Zahlen stammen von der Live-Site, die Formulierungen sind neu.
+- Die Startseite zeigt wie der Prototyp keine Projekte, Logos oder Zitate. Beleg steht im Aussagesatz («28 Partner») und unter Projekte.
+
 ## Sprache und Ton
 - Du-Form. Hochdeutsch mit Schweizer Schreibweise: ss statt ß, «» als Anführungszeichen, CHF 1’000 (typografischer Apostroph, CHF vor der Zahl), 70 % mit Leerzeichen.
 - Keine Gedankenstriche und keine Halbgeviertstriche als Interpunktion. Doppelpunkt, Komma oder Punkt.
@@ -47,12 +52,12 @@ Release 1 enthält nicht: CMS, Marketing-Check, Motion-Spielereien, Preisseite, 
 Pro Kunde immer nur den nächsten Baustein vorschlagen. Retainer-Preise stehen nicht auf der Website.
 
 ## Design
-- Hintergrund Creme `#F3F1EC`, Karten und Flächen Off White `#FDFBFB`, Text Deep Black `#121110`.
-- Akzent für Links, Buttons, Akzentwort, Schlusspunkt: Signal Blue `#2F00FF`. Gold `#FFD700` nur als Marker-Strich unter einem Wort pro Sektion und im Logo, nie als Fläche oder Textfarbe.
-- Ein dunkles Band pro Seite (Footer oder CTA): Alpenblau Mitternacht `#0A0C10` bis Höhenblau `#2B3A5A`, dezentes Filmkorn.
-- Schrift Geist (Headlines und Text), Geist Mono für Koordinaten, Labels, Kennzahlen-Beschriftungen. Das kursive Akzentwort setzt Instrument Serif (wie im Prototyp). Alle selbst gehostet.
-- H1 per `clamp`, Desktop höchstens ca. 120 px, Mobile ca. 44 px. Höchstens ein kursives Akzentwort pro Headline.
-- Buttons als Pill: primär Signal Blue mit weissem Text, sekundär Outline Deep Black. Eingabefelder eckig, Karten Radius 0.
+- Vorlage ist der Prototyp (alperna-tool.vercel.app/website). Aufbau, Abstände, Typografie und Bewegung folgen ihm 1:1. Abweichungen nur bei Farben und Texten. Änderungswünsche des Teams gehen vor.
+- Farben: Creme `#F3F1EC`, Deep Black `#121110`, Alpenblau Mitternacht `#0A0C10` für dunkle Flächen, Gelb `#FFD700` als einziger Akzent. Kein Blau, kein Orange.
+- Gelb ist auf hellem Grund nie Textfarbe (Kontrast 1.2:1): dort Marker-Strich (Akzentwort, Aufzählungsstriche, Zahlen) oder Fläche (Knopf-Kreis, Punkt). Auf dunklem Grund darf Text gelb sein.
+- Schrift Geist (Headlines und Text), Geist Mono für Koordinaten und Labels, Instrument Serif kursiv für das Akzentwort. Alle selbst gehostet.
+- Buttons als Pill: schwarz mit gelbem Pfeil-Kreis, Hover gelb. Eingabefelder nur mit Unterstrich.
+- Dunkle Flächen wie im Prototyp: Hero-Karte mit Höhenlinien, Ablauf, Team, Footer. Der frühere Grundsatz «ein dunkles Band pro Seite» gilt nicht mehr.
 - Lighthouse mobil: Performance über 90, Accessibility über 95.
 
 ## Technik

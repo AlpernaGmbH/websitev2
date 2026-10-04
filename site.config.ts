@@ -17,6 +17,8 @@ export const site = {
   },
   uid: 'CHE-132.724.195',
   region: ['St. Gallen', 'Appenzell', 'Rheintal'],
+  // Hero-Detail aus dem Prototyp: Koordinaten der Region und der Säntis mit Höhe.
+  hero: { lat: '47.42', lng: '9.38', gipfel: 'Säntis', gipfelHoeheM: 2502 },
 
   // Stand 04.10.2026, vom Team bestätigt: Unternehmen, mit denen wir zusammengearbeitet haben.
   partnerAnzahl: 28,

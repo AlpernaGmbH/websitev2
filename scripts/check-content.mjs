@@ -57,10 +57,17 @@ for (const s of slugs) {
   if (!/^date: "\d{4}-\d{2}-\d{2}"/m.test(t)) melde(`content/blog/${s}.md`, 'Datum fehlt')
 }
 
-// 6 Projekte: 14, Bilder vorhanden
+// 6 Projekte: 14, Bilder vorhanden, Texte nach Schreibregeln, keine übernommenen Originaltexte
 const projekte = JSON.parse(read('data/projekte.json')).projekte
 if (projekte.length !== 14) melde('data/projekte.json', `${projekte.length} Projekte statt 14`)
-for (const p of projekte) for (const id of [p.cover, p.logo, ...p.bilder].filter(Boolean)) if (!imgs.images[id]) melde('data/projekte.json', `${p.slug}: Bild ${id} fehlt`)
+for (const p of projekte) {
+  for (const id of [p.logo, ...p.fotos].filter(Boolean)) if (!imgs.images[id]) melde('data/projekte.json', `${p.slug}: Bild ${id} fehlt`)
+  for (const alt of ['ausgangslage', 'schritte', 'zusatz']) if (alt in p) melde('data/projekte.json', `${p.slug}: Feld «${alt}» enthält Originaltext der Framer-Seite`)
+  for (const t of [p.fall, p.umsetzung, ...p.leistungen]) {
+    for (const w of verboten) if (t.toLowerCase().includes(w.toLowerCase())) melde('data/projekte.json', `${p.slug}: verbotenes Wort «${w.trim()}»`)
+    for (const [z, n] of zeichen) if (t.includes(z)) melde('data/projekte.json', `${p.slug}: ${n}`)
+  }
+}
 
 if (probleme.length) {
   console.error(`Inhaltsprüfung: ${probleme.length} Befund(e)`)

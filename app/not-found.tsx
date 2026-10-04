@@ -1,11 +1,14 @@
 import Link from 'next/link'
+import { Headline } from '@/components/Headline'
 import { global } from '@/content/texte'
 
 export default function NotFound() {
   const f = global.fehlerseite
   return (
     <div className="notfound">
-      <h1>{f.h1}</h1>
+      <h1>
+        <Headline parts={f.h1} />
+      </h1>
       <p className="lead">{f.text}</p>
       <div className="notfound__links">
         {f.links.map((l, i) => (

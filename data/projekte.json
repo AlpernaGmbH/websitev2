@@ -2,7 +2,7 @@
   "meta": {
     "quelle": "https://www.alperna.ch/projekte und die 14 Detailseiten, gelesen am 04.10.2026",
     "regel": "Jede Zahl auf der neuen Website stammt aus dieser Datei. Fehlt sie hier, steht sie nicht auf der Seite.",
-    "hinweis": "Kennzahlen und Ausgangslage sind unverändert von der Live-Site. Die Texte der Detailseiten werden separat nach BRAND-VOICE neu geschrieben.",
+    "hinweis": "Fakten (Zahlen, Laufzeiten, Kanäle) stammen von der Live-Site. Ausgangslage und Umsetzung sind in eigenen Worten geschrieben. Zitate der Kunden stehen wörtlich in testimonials.json.",
     "bausteineSchluessel": [
       "website",
       "google-profil",
@@ -46,50 +46,11 @@
         }
       ],
       "leistungen": [
-        "Analyse und Zieldefinition",
-        "Produktion vor Ort",
+        "Analyse und Ziele",
+        "Dreh vor Ort",
         "Beiträge und Posting"
       ],
-      "ausgangslage": "Ein aktiver Verein mit echtem Vereinsleben. Was in der Halle passiert, bekommt ausserhalb aber niemand mit: Turniere, Trainings, Highlights blieben intern.",
       "zitat": "bc-trogen-speicher",
-      "schritte": [
-        {
-          "titel": "Analyse und Zieldefinition",
-          "wert": "+690 %",
-          "label": "Instagram-Aufrufe",
-          "text": [
-            "Bestehende Kanäle analysiert und klare Ziele festgelegt."
-          ],
-          "punkte": [
-            "Analyse der bestehenden Kanäle",
-            "Klare Ziele definiert"
-          ]
-        },
-        {
-          "titel": "Produktion vor Ort",
-          "wert": "3 Monate",
-          "label": "Laufzeit",
-          "text": [
-            "An Turnieren gedreht: echte Spielszenen, echte Emotionen."
-          ],
-          "punkte": [
-            "Dreh an Turnieren",
-            "Echte Spielszenen"
-          ]
-        },
-        {
-          "titel": "Beiträge und Posting",
-          "wert": "74’300",
-          "label": "Aufrufe",
-          "text": [
-            "Aus dem Material entstanden fertige Beiträge, das Posting lief komplett über uns."
-          ],
-          "punkte": [
-            "21 Beiträge mit Schnitt, Musik und Texten",
-            "Vollständige Übernahme des Postings"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "Instagram",
@@ -102,8 +63,9 @@
       ],
       "cover": "VdqRHU4PjKxr2cvDqpKIUolqES4",
       "logo": "XCtrvTrIrBubLsLsJOcKgLmjezA",
-      "bilder": [
-        "kzLhI7OywQko0UiBrUPsYTbE",
+      "fall": "Der Verein lebt, aber wer nicht in der Halle stand, sah nichts davon. Turniere und Trainings blieben unter den Mitgliedern.",
+      "umsetzung": "Wir haben die bestehenden Kanäle angeschaut und Ziele festgelegt. An den Turnieren haben wir gefilmt, aus dem Material 21 Beiträge geschnitten und das Posting komplett übernommen.",
+      "fotos": [
         "VdqRHU4PjKxr2cvDqpKIUolqES4"
       ]
     },
@@ -138,52 +100,10 @@
       ],
       "kennzahlenHinweis": "Die Live-Site nennt zusätzlich «8–12 % Conversion» ohne Bezugsgrösse. Nicht übernommen.",
       "leistungen": [
-        "Website-Erstellung",
-        "Professionelles Shooting",
-        "Social-Media-Profil",
+        "Website",
+        "Shooting",
+        "Instagram-Profil",
         "Google-Unternehmensprofil"
-      ],
-      "ausgangslage": "Eine Einzelpraxis mit guter Arbeit, aber neue Kundinnen kamen vor allem über Empfehlung. Online war Regina kaum greifbar: keine richtige Website, kein professionelles Material, kein sauber aufgesetztes Social Media.",
-      "leistungenHinweis": "Google-Profil: Angabe der Gründer vom 04.10.2026, steht nicht auf der Live-Site. Ausgangslage und Ergebnis fehlen noch.",
-      "schritte": [
-        {
-          "titel": "Website-Erstellung",
-          "wert": "8–12 %",
-          "label": "Conversion",
-          "text": [
-            "Die Website als Online-Grundlage. Sie liefert messbar Anfragen: rund 12 Kontakt-Klicks in den ersten sechs Wochen."
-          ],
-          "punkte": [
-            "Klare Positionierung entwickelt",
-            "Mobile-First-Website",
-            "Übersichtlicher Auftritt"
-          ]
-        },
-        {
-          "titel": "Professionelles Shooting",
-          "wert": "500+",
-          "label": "Bilder produziert",
-          "text": [
-            "Material, mit dem Regina eigenständig hochwertigen Inhalt veröffentlichen kann."
-          ],
-          "punkte": [
-            "Über 500 Bilder",
-            "20 Video-Assets für Social Media",
-            "Darstellung als Expertin"
-          ]
-        },
-        {
-          "titel": "Social-Media-Profil",
-          "wert": "20",
-          "label": "Video-Assets",
-          "text": [
-            "Instagram sauber aufgesetzt. Die Videos postet Regina selbst."
-          ],
-          "punkte": [
-            "Instagram-Profil eingerichtet",
-            "Klarer Auftritt mit Wiedererkennung"
-          ]
-        }
       ],
       "kundenLinks": [
         {
@@ -197,16 +117,15 @@
       ],
       "cover": "NdUBVnfB4BQkp9DF5AndVDmKc2M",
       "logo": null,
-      "bilder": [
-        "rxg3ApgvsK5WzuVMtl9hovCLCA",
-        "J7LleGgxrKBhIZTcOGwoEbuody4",
-        "SU8Ywz0l1N6ryi5p9bFqPkc3mI",
+      "fall": "Die Praxis arbeitet gut, neue Kundinnen kamen aber fast nur über Empfehlungen. Online fehlten eine Website, gutes Bildmaterial und ein sauberer Instagram-Auftritt.",
+      "umsetzung": "Wir haben die Website gebaut, die Praxis fotografiert und das Instagram-Profil eingerichtet. Dazu kam das Google-Profil. Mit dem Material veröffentlicht Regina heute selbst.",
+      "fotos": [
         "NdUBVnfB4BQkp9DF5AndVDmKc2M",
         "wJYPGUV8CK54t3ZcLnaHcGx1pE",
         "nVJoeiIcPqyzVclzSKMxI9SfXg",
-        "kmrK6NtnaezrJyB3j0JwpTxIU8",
+        "IqGYw2RlIQZI3X66BMkc2TGbFrI",
         "LzZFm9Ql58B8pNXO8T3LZztGDA",
-        "IqGYw2RlIQZI3X66BMkc2TGbFrI"
+        "kmrK6NtnaezrJyB3j0JwpTxIU8"
       ]
     },
     {
@@ -232,24 +151,7 @@
         }
       ],
       "leistungen": [
-        "Videoproduktion für Social Media"
-      ],
-      "ausgangslage": "Das Restaurant Gustav Kahn liegt in Romanshorn direkt am Hafen. Die Lage ist das Argument, mit dem Gäste den Weg auf sich nehmen. Auf den Social-Media-Kanälen war davon nichts zu sehen: keine Videos vom Betrieb, keine Aufnahmen der Terrasse.",
-      "schritte": [
-        {
-          "titel": "Drei Videos vor Ort",
-          "wert": "3",
-          "label": "Reels",
-          "text": [
-            "Ein Drehtag am See, daraus drei einsetzbare Reels.",
-            "Für Social Media geschnitten, kurz und ohne Ton verständlich. Für das Restaurant blieb es bei einem Termin."
-          ],
-          "punkte": [
-            "Ein Drehtag vor Ort",
-            "Drei fertige Videos",
-            "Für Social Media geschnitten"
-          ]
-        }
+        "Videoproduktion"
       ],
       "kundenLinks": [
         {
@@ -259,7 +161,9 @@
       ],
       "cover": null,
       "logo": "Ujep2EiySv7TRI6flfvn5YINg",
-      "bilder": []
+      "fall": "Das Restaurant liegt direkt am Hafen in Romanshorn. Auf Social Media war davon nichts zu sehen.",
+      "umsetzung": "Wir haben einen Tag vor Ort gefilmt und daraus drei Reels geschnitten, die auch ohne Ton verständlich sind. Für den Betrieb blieb es bei einem Termin.",
+      "fotos": []
     },
     {
       "slug": "gewerbeverband-ar",
@@ -284,44 +188,10 @@
         }
       ],
       "leistungen": [
-        "Eventdokumentation, Recap-Video und Portraits"
+        "Eventfilm",
+        "Recap-Video",
+        "Portraits"
       ],
-      "ausgangslage": "Der Gewerbeverband AR veranstaltet die Sommerkonferenz gemeinsam mit dem Verein Energie AR/AI: zwei Referate, eine Debatte, Apéro im Freien. Vom Anlass gab es bisher weder Videomaterial noch Bilder, weder für den Verband noch für die Referenten.",
-      "lieferung": "Das Recap-Video wurde wenige Tage nach dem Anlass ausgeliefert.",
-      "schritte": [
-        {
-          "titel": "Eventdokumentation und Recap-Video",
-          "wert": "1",
-          "label": "Recap-Video",
-          "text": [
-            "Referate, Debatte und Apéro durchgehend gefilmt, daraus ein Recap-Video.",
-            "Wenige Tage nach dem Anlass ausgeliefert."
-          ],
-          "punkte": [
-            "Referate, Debatte und Apéro gefilmt",
-            "Recap-Video geschnitten",
-            "Zeitnah ausgeliefert"
-          ]
-        },
-        {
-          "titel": "Portraits für die Referenten",
-          "wert": "40",
-          "label": "Fotos",
-          "text": [
-            "Eigener Stand mit Gratis-Portraits für die Gäste.",
-            "40 Fotos ausgeliefert. Jeder Referent bekam seine Bühnenbilder einzeln."
-          ],
-          "punkte": [
-            "Portraits aller Referenten",
-            "Gratis-Portraits für Gäste",
-            "Einzeln ausgeliefert"
-          ]
-        }
-      ],
-      "zusatz": {
-        "titel": "Das Programm des Abends",
-        "text": "Den Auftakt machte Mike Lattmann mit einem Referat über Solaranlagen. Es folgte eine Debatte mit Dölf Biasotto, Regierungsrat des Kantons Appenzell Ausserrhoden, und Roger Ackermann von der SAK, moderiert von Matthias P. Tischhauser. Zum Abschluss sprach Urs Spiegel von neximo über Verkaufspsychologie, danach ging es zum Apéro nach draussen."
-      },
       "kundenLinks": [
         {
           "label": "LinkedIn",
@@ -330,7 +200,9 @@
       ],
       "cover": null,
       "logo": "hZzhL8EF2npTgCspCmutUpq60",
-      "bilder": []
+      "fall": "Von der Sommerkonferenz gab es weder Videomaterial noch Bilder, weder für den Verband noch für die Referenten.",
+      "umsetzung": "Wir haben den Abend gefilmt, ein Recap-Video geschnitten und es wenige Tage danach geliefert. An einem eigenen Stand haben wir 40 Portraits gemacht, die Referenten bekamen ihre Bühnenbilder einzeln.",
+      "fotos": []
     },
     {
       "slug": "appenzellerland-sport",
@@ -359,50 +231,11 @@
         }
       ],
       "leistungen": [
-        "Status-Quo-Audit",
+        "Profil-Check",
         "Zielgruppen-Analyse",
-        "Branding-Check und Empfehlungen"
+        "Empfehlungen für die Marke"
       ],
-      "ausgangslage": "Die Sportschule Appenzellerland Sport betrieb Social Media nach Bauchgefühl. Es fehlte Klarheit darüber, welche Inhalte funktionieren, wer die Zielgruppe wirklich ist und was als Nächstes zu tun wäre.",
       "zitat": "appenzellerland-sport",
-      "schritte": [
-        {
-          "titel": "Status-Quo-Audit",
-          "wert": "1",
-          "label": "Audit",
-          "text": [
-            "Bestandsaufnahme der bestehenden Profile."
-          ],
-          "punkte": [
-            "Bios und Einstellungen",
-            "Bestehende Beiträge"
-          ]
-        },
-        {
-          "titel": "Zielgruppen-Analyse",
-          "wert": "1",
-          "label": "Analyse",
-          "text": [
-            "Auswertung der Interaktionsraten, um zu sehen, wer wirklich zuschaut."
-          ],
-          "punkte": [
-            "Auswertung der Interaktionsraten",
-            "Zielgruppe geschärft"
-          ]
-        },
-        {
-          "titel": "Branding-Check und Empfehlungen",
-          "wert": "1",
-          "label": "Handlungsplan",
-          "text": [
-            "Gesamtauftritt geprüft, daraus priorisierte nächste Schritte."
-          ],
-          "punkte": [
-            "Branding-Check des Gesamtauftritts",
-            "Priorisierte Handlungsempfehlungen"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "Instagram",
@@ -415,9 +248,9 @@
       ],
       "cover": "j7BETm17HfWAsqe6OOZ6lZNu8",
       "logo": "mGiMLVVpxno84gaBqaw5sgbRhBE",
-      "bilder": [
-        "j7BETm17HfWAsqe6OOZ6lZNu8"
-      ]
+      "fall": "Die Sportschule betrieb Social Media nach Bauchgefühl. Unklar war, welche Inhalte funktionieren und wer wirklich zuschaut.",
+      "umsetzung": "Wir haben die Profile geprüft, anhand der Interaktionsraten die Zielgruppe ausgewertet und die Marke gecheckt. Am Ende stand ein Handlungsplan mit den nächsten Schritten.",
+      "fotos": []
     },
     {
       "slug": "lifeboost",
@@ -448,60 +281,9 @@
       ],
       "kennzahlenHinweis": "Entschieden 04.10.2026: 30+ Videos. Die Startseite der Live-Site nennt noch 20.",
       "leistungen": [
+        "Website-Design",
         "Fotoshooting",
-        "Website Design",
         "Unterstützung beim Branding"
-      ],
-      "ausgangslage": "LifeBoost hatte sich am Markt etabliert. Die bestehende Website war lang im Einsatz, entsprach aber optisch und technisch nicht mehr dem Standard, den LifeBoost selbst an seine Produkte anlegt.",
-      "schritte": [
-        {
-          "titel": "Design-Entwicklung",
-          "wert": "1",
-          "label": "Relaunch",
-          "text": [
-            "Ein neues Design, das die Markenidentität aufgreift."
-          ],
-          "punkte": [
-            "Markenidentität aufgegriffen",
-            "Klare Nutzerführung"
-          ]
-        },
-        {
-          "titel": "Technische Umsetzung",
-          "wert": null,
-          "label": null,
-          "text": [
-            "Vollständige Umsetzung mit Fokus auf Sicherheit, Ladezeiten und Mobiloptimierung."
-          ],
-          "punkte": [
-            "Sicherheit und Ladezeiten",
-            "Mobiloptimierung"
-          ]
-        },
-        {
-          "titel": "Launch",
-          "wert": null,
-          "label": null,
-          "text": [
-            "Reibungsloser Übergang ohne Ausfälle."
-          ],
-          "punkte": [
-            "Launch in 2 Wochen",
-            "Keine Ausfälle beim Wechsel"
-          ]
-        },
-        {
-          "titel": "Content-Produktion",
-          "wert": "150",
-          "label": "Bilder",
-          "text": [
-            "Passend zum neu entwickelten Branding haben wir vor Ort produziert: 150 Bilder und über 30 Video-Assets für die laufende Instagram-Produktion."
-          ],
-          "punkte": [
-            "150 Bilder",
-            "30+ Video-Assets für Instagram"
-          ]
-        }
       ],
       "kundenLinks": [
         {
@@ -511,12 +293,11 @@
       ],
       "cover": "MbQsQKSpdpjTlcR5XFJ8ZxNHwnA",
       "logo": "SlH9ijItf6adStZ9chlGVWxYCRQ",
-      "bilder": [
-        "v2483mP5iBJH1JszTFIfaueqyI",
-        "gpo4HZqRaCySgBQaacSZwxkH1Uc",
+      "fall": "LifeBoost hat sich am Markt etabliert. Die Website passte optisch und technisch nicht mehr zum Anspruch an die eigenen Produkte.",
+      "umsetzung": "Wir haben ein neues Design entwickelt, die Website umgesetzt und in zwei Wochen ohne Ausfall gestartet. Vor Ort sind 150 Fotos und über 30 Videos für Instagram entstanden.",
+      "fotos": [
         "MbQsQKSpdpjTlcR5XFJ8ZxNHwnA",
         "61ou8wh6pc8oPuJ6dnqpSkhc4VI",
-        "EjivTHHLzVVpH7hLhnM8NQNrmsc",
         "CQhuZ8Rmiss0ZAWxgG6uvhTtWqo",
         "zqReX8kl1crDjurI28Tq1r0HrI",
         "mXphXHDAXvyDT0Lk01g2qwywZ5U"
@@ -557,69 +338,12 @@
       ],
       "kennzahlenHinweis": "Entschieden 04.10.2026: 519’000 in 3 Monaten (Startseite der Live-Site). Detailseite und Meta-Beschreibung der Live-Site nennen noch 459’400.",
       "leistungen": [
-        "Strategie und Positionierung",
+        "Positionierung",
         "Website",
-        "Portrait- und Video-Assets",
-        "Social-Media-Management"
+        "Portraits und Videos",
+        "Social Media"
       ],
-      "ausgangslage": "Alex ist Praktiker im Vertrieb, kein Coach, der nur darüber redet. Das Coaching hatte Qualität, der Instagram-Auftritt zeigte das nicht: generisch, ohne roten Faden, ohne Wiedererkennung. Keine Website, keine klare Positionierung.",
       "zitat": "alex-breitenmoser",
-      "schritte": [
-        {
-          "titel": "Strategie und Positionierung",
-          "wert": "1",
-          "label": "Positionierung",
-          "text": [
-            "Markt und Konkurrenz untersucht, daraus die Positionierung als praktizierender Verkäufer statt theoretischer Coach."
-          ],
-          "punkte": [
-            "Markt- und Konkurrenzanalyse",
-            "Ungenutzte Zielgruppen-Potenziale",
-            "Branchentrendanalyse"
-          ]
-        },
-        {
-          "titel": "Website",
-          "wert": "1",
-          "label": "Website neu",
-          "text": [
-            "Eine eigene Website als Grundlage der Online-Präsenz: vorher gab es keine."
-          ],
-          "punkte": [
-            "Website-Erstellung",
-            "Auf die Positionierung ausgerichtet"
-          ]
-        },
-        {
-          "titel": "Portrait- und Video-Assets",
-          "wert": "10+",
-          "label": "Videos produziert",
-          "text": [
-            "eigenständig weiterverwenden kann."
-          ],
-          "punkte": [
-            "Professionelles Material, das",
-            "Alex",
-            "Professionelle Portrait-Assets",
-            "Video-Assets zur Weiterverwendung"
-          ]
-        },
-        {
-          "titel": "Social-Media-Management",
-          "wert": "303’000",
-          "label": "Aufrufe Top-Video",
-          "text": [
-            "Regelmässige Kurzvideos für Instagram, später zusätzlich Langformat für YouTube. Die Reels füllen Alex’ DMs mit Anfragen.",
-            "„Wir haben Strategie, Website, Videos und Social Media komplett abgegeben und sind vom Ergebnis begeistert. Alles greift perfekt ineinander.“"
-          ],
-          "punkte": [
-            "Kurzvideos für Instagram",
-            "Langformat-Videos für YouTube",
-            "Laufendes Social-Media-Management",
-            "Alex Breitenmoser · Vertriebs-Coaching"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "Instagram",
@@ -628,11 +352,9 @@
       ],
       "cover": "Ev66oFlB9S75ZwJiX6iJd23d8w",
       "logo": "7SDzcwUSokXCUZ6lyRQ36pRw9Q",
-      "bilder": [
-        "SwfdReAJKAcb2pP1WuEV9g7Ltg",
-        "8qNWZFUu1vq6EsNCEMI8WJjw",
-        "Ev66oFlB9S75ZwJiX6iJd23d8w"
-      ]
+      "fall": "Alex ist Praktiker im Vertrieb. Sein Instagram-Auftritt zeigte das nicht: kein roter Faden, keine Website, keine klare Positionierung.",
+      "umsetzung": "Wir haben Markt und Mitbewerber angeschaut und ihn als praktizierenden Verkäufer positioniert. Dazu kamen eine Website, Portraits, Videos und die laufende Betreuung von Instagram und YouTube. Die Reels bringen Anfragen in seine Nachrichten.",
+      "fotos": []
     },
     {
       "slug": "klartext-von-zwei-kanten",
@@ -669,50 +391,10 @@
       ],
       "leistungen": [
         "Aufnahme vor Ort",
-        "Strategische Neupositionierung",
+        "Neupositionierung",
         "Kurzvideos und Text-Posts"
       ],
-      "ausgangslage": "Der Podcast hatte bereits eine treue Hörerschaft, machte aber alles selbst: von der Aufnahme bis zum Schnitt. Die Hosts wollten den Kopf frei für Gäste und Inhalte.",
       "zitat": "klartext-von-zwei-kanten",
-      "schritte": [
-        {
-          "titel": "Aufnahme vor Ort",
-          "wert": "50’000",
-          "label": "Aufrufe erstes Video",
-          "text": [
-            "Professionelle Aufnahme mit eigenem Equipment."
-          ],
-          "punkte": [
-            "Eigene Kamera und Licht",
-            "Aufnahme vor Ort"
-          ]
-        },
-        {
-          "titel": "Strategische Neupositionierung",
-          "wert": "1 Monat",
-          "label": "Zeitraum",
-          "text": [
-            "Der Kanal wurde zur Bildungsplattform für Finanzthemen umgebaut statt reines Werbeprojekt zu bleiben."
-          ],
-          "punkte": [
-            "Positionierung als Bildungsplattform",
-            "SEO-Check und Profiloptimierung"
-          ]
-        },
-        {
-          "titel": "Kurzvideos und Text-Posts",
-          "wert": "178’000",
-          "label": "Gesamtaufrufe",
-          "text": [
-            "Laufende Ausspielung über drei Kanäle."
-          ],
-          "punkte": [
-            "10 Kurzvideos pro Monat",
-            "30 Text-Posts für X und Threads",
-            "Optimierte Hooks"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "Instagram",
@@ -721,10 +403,11 @@
       ],
       "cover": "EhDKdyORXKoylUDOIxI7ExueQ",
       "logo": "W4cz3Eja958cyzs6A5PpQ81fh8o",
-      "bilder": [
-        "vNYS40ND7lBFS0Lbq1u36sVsY",
+      "fall": "Der Podcast hatte treue Hörer. Die Hosts erledigten aber alles selbst, von der Aufnahme bis zum Schnitt.",
+      "umsetzung": "Wir haben vor Ort mit eigener Kamera und eigenem Licht aufgenommen, den Kanal als Bildungsplattform für Finanzthemen neu aufgestellt und Kurzvideos sowie Text-Posts produziert.",
+      "fotos": [
         "EhDKdyORXKoylUDOIxI7ExueQ",
-        "gDqfbCQ20O35dyTEIZPDAEKaqU"
+        "vNYS40ND7lBFS0Lbq1u36sVsY"
       ]
     },
     {
@@ -754,38 +437,9 @@
         }
       ],
       "leistungen": [
-        "Ganztägige Eventfilmung, Fotos und Reel"
-      ],
-      "ausgangslage": "Beyond Borders von Sinno und Joshua Broger traten am Daydance gemeinsam auf, veranstaltet von der Vadian Event AG. Beide Künstler brauchten Material für ihre eigenen Kanäle, vom Auftritt und vom Tag drumherum.",
-      "schritte": [
-        {
-          "titel": "Zwölf Stunden Eventfilmung",
-          "wert": "200",
-          "label": "Fotos",
-          "text": [
-            "Vorbereitung, Auftritt und Publikum durchgehend begleitet.",
-            "200 Fotos und 120 Videos an einem Tag."
-          ],
-          "punkte": [
-            "10 bis 22 Uhr vor Ort",
-            "Foto und Video parallel",
-            "Auftritt und Drumherum"
-          ]
-        },
-        {
-          "titel": "Reel und Bildstrecke",
-          "wert": "1",
-          "label": "Reel",
-          "text": [
-            "Aus dem Tagesmaterial ein Reel für Social Media, dazu die Bildauswahl.",
-            "Beide Künstler konnten das Material direkt für ihre eigenen Kanäle verwenden."
-          ],
-          "punkte": [
-            "Reel für Social Media",
-            "Fotoauswahl aus dem Tag",
-            "Für beide Kanäle nutzbar"
-          ]
-        }
+        "Eventfilm",
+        "Fotos",
+        "Reel"
       ],
       "kundenLinks": [
         {
@@ -803,9 +457,9 @@
       ],
       "cover": "ZaXKWLbaeDZY2DWl4kyMGX6hZf8",
       "logo": "KsMIJ2WDH3uz5Y13l2UC33cn300",
-      "bilder": [
-        "ZaXKWLbaeDZY2DWl4kyMGX6hZf8"
-      ]
+      "fall": "Zwei Künstler traten am Daydance gemeinsam auf und brauchten Material für ihre eigenen Kanäle.",
+      "umsetzung": "Wir waren zwölf Stunden vor Ort und haben Foto und Video parallel produziert. Entstanden sind 200 Fotos, 120 Videos und ein Reel.",
+      "fotos": []
     },
     {
       "slug": "i-love-zero",
@@ -834,31 +488,14 @@
         }
       ],
       "leistungen": [
-        "Foto- und Videoproduktion für eine Kleidermarke"
-      ],
-      "ausgangslage": "I love Zero ist eine junge Kleidermarke mit Schweizer Positionierung. Für die Kollektion fehlten eigene Aufnahmen: keine Produktbilder, kein Videomaterial, nichts für die Social-Media-Kanäle. Am Daydance fragte die Marke spontan an.",
-      "schritte": [
-        {
-          "titel": "Foto- und Videoshooting",
-          "wert": "40",
-          "label": "Fotos",
-          "text": [
-            "40 Fotos und 15 Videos der Kollektion, an einem Nachmittag.",
-            "Aufgenommen vor dem Alpstein, passend zur Positionierung der Marke."
-          ],
-          "punkte": [
-            "Fotos der Kollektion",
-            "Videoaufnahmen",
-            "Ohne Studio, direkt vor Ort"
-          ]
-        }
+        "Foto und Video"
       ],
       "kundenLinks": [],
       "cover": "UjOrSF53Ye1TZ8ovxnKsrLwIo",
       "logo": "277j8XREDOfGbpR4lgZzhA8hic",
-      "bilder": [
-        "UjOrSF53Ye1TZ8ovxnKsrLwIo"
-      ]
+      "fall": "Die junge Kleidermarke mit Schweizer Positionierung hatte keine eigenen Aufnahmen ihrer Kollektion.",
+      "umsetzung": "Am Daydance hat uns die Marke spontan angefragt. Wir haben an einem Nachmittag 40 Fotos und 15 Videos gemacht, ohne Studio, vor dem Alpstein.",
+      "fotos": []
     },
     {
       "slug": "nordcloud",
@@ -890,25 +527,7 @@
       "leistungen": [
         "Videoproduktion für LinkedIn"
       ],
-      "ausgangslage": "Nordcloud, Teil des IBM-Konzerns, war mit einem Stand an den Startup Nights in Winterthur. Für den LinkedIn-Kanal mit rund 44’000 Followern gab es vom Anlass kein Videomaterial, niemand war fürs Filmen eingeplant.",
       "zitat": "nordcloud",
-      "schritte": [
-        {
-          "titel": "Videoproduktion für LinkedIn",
-          "wert": "1",
-          "label": "Video erstellt",
-          "text": [
-            "Eine Filmsession, ein fertiges Video für den LinkedIn-Kanal.",
-            "Der Dreh dauerte rund zehn Minuten: keine Vorbereitung, kein Skript, kein Standpersonal, das über längere Zeit gebunden war.",
-            "Schnitt, Bildauswahl und Tempo auf den Feed ausgerichtet. Die Freigabe über mehrere Stellen im Konzern haben wir begleitet."
-          ],
-          "punkte": [
-            "Eine Filmsession vor Ort",
-            "Schnitt und Produktion",
-            "Direkt einsetzbar für LinkedIn"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "LinkedIn",
@@ -921,7 +540,9 @@
       ],
       "cover": null,
       "logo": "LIUzpNKbpTYlG40N55iuffk7xhU",
-      "bilder": []
+      "fall": "Nordcloud, Teil von IBM, hatte einen Stand an den Startup Nights in Winterthur. Für den LinkedIn-Kanal gab es vom Anlass kein Videomaterial.",
+      "umsetzung": "Wir hatten die Kamera dabei und haben in rund zehn Minuten gedreht, ohne Skript. Daraus entstand ein Recap-Video fürs LinkedIn-Feed. Die Freigabe über mehrere Stellen im Konzern haben wir begleitet.",
+      "fotos": []
     },
     {
       "slug": "whitetail-fever",
@@ -950,59 +571,18 @@
         {
           "wert": "1,7 Mio.",
           "label": "Interaktionen"
+        },
+        {
+          "wert": "90",
+          "label": "Beiträge pro Monat"
         }
       ],
       "leistungen": [
-        "Analyse und Markenstimme",
+        "Analyse der Markenstimme",
         "Content-Produktion",
         "Community Management"
       ],
-      "ausgangslage": "Die Marke Whitetail Fever hatte ohne Werbebudget bereits eine loyale Basis aufgebaut. Das Team stiess an seine Kapazitätsgrenze: die Frequenz hochhalten und gleichzeitig das Kerngeschäft führen ging nicht mehr.",
       "zitat": "whitetail-fever",
-      "schritte": [
-        {
-          "titel": "Analyse und Markenstimme",
-          "wert": "6 Monate",
-          "label": "Laufzeit",
-          "text": [
-            "Zuerst die bestehenden Top-Performer analysiert und die Markenstimme übernommen."
-          ],
-          "punkte": [
-            "Top-Performer analysiert",
-            "Markenstimme übernommen"
-          ]
-        },
-        {
-          "titel": "Content-Produktion",
-          "wert": null,
-          "label": null,
-          "text": [
-            "49 Mio.",
-            "Vollständige Produktion über alle drei Kanäle, plattformgerecht aufbereitet."
-          ],
-          "punkte": [
-            "Aufrufe organisch",
-            "90 Beiträge pro Monat",
-            "Instagram, Facebook und TikTok",
-            "Hook-Optimierung",
-            "Plattformgerechte Aufbereitung"
-          ]
-        },
-        {
-          "titel": "Community Management",
-          "wert": null,
-          "label": null,
-          "text": [
-            "1.7 Mio.",
-            "Laufende Betreuung, damit das interne Team komplett entlastet ist."
-          ],
-          "punkte": [
-            "Interaktionen",
-            "Laufendes Community Management",
-            "Team vollständig entlastet"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "Instagram",
@@ -1023,13 +603,9 @@
       ],
       "cover": "M8HG0TVfF7tUFE8s4SK4shN7k",
       "logo": "MceUeFesIxjqOxqiW3eHqZPEo",
-      "bilder": [
-        "toJ23BjoRKRSr7x9mJG28Cl845w",
-        "wmjJXeK9CsQBSZMVMca4WcRVTs",
-        "M8HG0TVfF7tUFE8s4SK4shN7k",
-        "y0DCAfRFq9ZLkgPHHUoIr4ti6kc",
-        "UpxtpzSZ9daNcDS4OYoeY7WjwYI"
-      ]
+      "fall": "Die Marke hatte ohne Werbebudget eine loyale Community aufgebaut. Das Team kam an seine Kapazitätsgrenze.",
+      "umsetzung": "Wir haben die erfolgreichsten Beiträge analysiert, die Markenstimme übernommen und für Instagram, Facebook und TikTok produziert und betreut.",
+      "fotos": []
     },
     {
       "slug": "boostraft",
@@ -1060,52 +636,11 @@
         }
       ],
       "leistungen": [
-        "Tiefenanalyse und Neupositionierung",
+        "Analyse und Neupositionierung",
         "Content-Produktion",
         "Lead-Generierung"
       ],
-      "ausgangslage": "Boostraft war mit 78 Followern gestartet und generierte null planbare Leads. Die Inhalte hatten keinen roten Faden, keine klare Zielgruppenansprache und keinen Call-to-Action.",
       "zitat": "boostraft",
-      "schritte": [
-        {
-          "titel": "Tiefenanalyse und Neupositionierung",
-          "wert": "30 Tage",
-          "label": "Zeitraum",
-          "text": [
-            "Markt und Konkurrenz untersucht, danach die Marke neu positioniert."
-          ],
-          "punkte": [
-            "Markt- und Konkurrenzanalyse",
-            "Klar definierte Content-Säulen",
-            "Verkaufsargumente geschärft"
-          ]
-        },
-        {
-          "titel": "Content-Produktion",
-          "wert": "194’784",
-          "label": "Aufrufe",
-          "text": [
-            "Beiträge mit professionellem Copywriting statt Blindflug."
-          ],
-          "punkte": [
-            "20 optimierte Beiträge",
-            "Professionelles Copywriting"
-          ]
-        },
-        {
-          "titel": "Lead-Generierung",
-          "wert": "412",
-          "label": "Qualifizierte Leads",
-          "text": [
-            "Aufmerksamkeit in konkrete Anfragen verwandeln."
-          ],
-          "punkte": [
-            "Lead-Magnete konzipiert",
-            "Aktives Community Management",
-            "3 zahlende Neukunden"
-          ]
-        }
-      ],
       "kundenLinks": [
         {
           "label": "Website",
@@ -1114,11 +649,9 @@
       ],
       "cover": "BOs4lplaZQhm043RRasr1woiU4",
       "logo": "mrg23aypWOcsg2OZJi9woYA4D2Y",
-      "bilder": [
-        "BOs4lplaZQhm043RRasr1woiU4",
-        "tfVA6kTZv38B27dGNn30gyyvU",
-        "cpqCMCS8oRsDdNHJrirnCktGOE"
-      ]
+      "fall": "Boostraft startete mit 78 Followern und ohne planbare Leads. Den Inhalten fehlten ein roter Faden, eine klare Zielgruppe und ein Aufruf zum Handeln.",
+      "umsetzung": "Wir haben Markt und Mitbewerber analysiert, die Marke neu aufgestellt und feste Inhaltsthemen definiert. 20 überarbeitete Beiträge mit neuen Texten brachten in 30 Tagen 412 Leads.",
+      "fotos": []
     },
     {
       "slug": "pocket-properties-app",
@@ -1149,71 +682,18 @@
         }
       ],
       "leistungen": [
-        "Neupositionierung als Bildungsplattform",
+        "Neupositionierung",
         "Profil-Optimierung",
-        "Text-Content für X und Threads",
-        "Video-Content"
+        "Text-Inhalte für X und Threads",
+        "Videos"
       ],
-      "ausgangslage": "Eine starke Vision, aber im Fintech-Bereich zögern Kleinanleger ohne bekannte Marke. Die Technologie war da, die Kommunikation fehlte. Es brauchte eine Brücke zwischen komplexen Finanzthemen und verständlichem Inhalt.",
       "zitat": "pocket-properties-app",
-      "schritte": [
-        {
-          "titel": "Neupositionierung als Bildungsplattform",
-          "wert": "3 Monate",
-          "label": "Laufzeit",
-          "text": [
-            "Statt Werbung wurde der Kanal zur Bildungsplattform. Finanzthemen einfach erklärt."
-          ],
-          "punkte": [
-            "Strategische Neupositionierung",
-            "Komplexe Themen verständlich gemacht"
-          ]
-        },
-        {
-          "titel": "Profil-Optimierung",
-          "wert": "1’155",
-          "label": "Neue Follower",
-          "text": [
-            "Grundlagen sauber aufgesetzt."
-          ],
-          "punkte": [
-            "Profil-Optimierung",
-            "SEO-Check"
-          ]
-        },
-        {
-          "titel": "Text-Content für X und Threads",
-          "wert": "1’507",
-          "label": "Interaktionen",
-          "text": [
-            "Aufbau von Expertenstatus über geschriebene Inhalte."
-          ],
-          "punkte": [
-            "30 detaillierte Text-Posts",
-            "Expertenstatus aufgebaut"
-          ]
-        },
-        {
-          "titel": "Video-Content",
-          "wert": "298’246",
-          "label": "Aufrufe",
-          "text": [
-            "Emotionale Ansprache und einfache Visualisierung komplexer Themen."
-          ],
-          "punkte": [
-            "10 Kurzvideos pro Monat",
-            "Einfache Visualisierung"
-          ]
-        }
-      ],
       "kundenLinks": [],
       "cover": "IbmpNhWUDMl3Rmnp1CRwgcuAc4",
       "logo": "1fRCMNaaHPJ1Mk8x4iMF44msZ0Q",
-      "bilder": [
-        "vTZoyuL0C2HVXugppG0PJ6MqG8A",
-        "tT7L8ueURYs7aQgYZBbZszzOm5g",
-        "IbmpNhWUDMl3Rmnp1CRwgcuAc4"
-      ]
+      "fall": "Im Fintech-Bereich zögern Kleinanleger ohne bekannte Marke. Die Technik stand, die Kommunikation fehlte.",
+      "umsetzung": "Wir haben den Kanal als Bildungsplattform neu aufgestellt, die Profile optimiert sowie Text-Inhalte für X und Threads und Videos produziert. Komplexe Finanzthemen werden so verständlich erklärt.",
+      "fotos": []
     }
   ]
 }

@@ -12,46 +12,44 @@ export default function Kontakt() {
   return (
     <>
       <section className="container page-head">
-        <p className="mono label" style={{ marginBottom: 24 }}>Kontakt</p>
+        <p className="mono label">{kontakt.label}</p>
         <h1 className="page-title">
           <Headline parts={kontakt.h1} />
         </h1>
-        <p className="lead" style={{ marginTop: 28 }}>{kontakt.sub}</p>
+        <p className="lead page-sub">{kontakt.sub}</p>
       </section>
-      <section className="container section section--tight-top">
+      <section className="contact container">
         <div className="contact__grid">
-          <dl className="contact__copy contact__ways" style={{ borderTop: 0, paddingTop: 0 }}>
-            <div>
-              <dt className="mono">{kontakt.wege.termin.label}</dt>
-              <dd>
-                <a href={site.calendlyUrl} target="_blank" rel="noopener noreferrer" data-track="calendly_klick">{kontakt.wege.termin.text}</a>
-              </dd>
-            </div>
-            {wa && (
+          <div className="contact__copy">
+            <a className="contact__mail" href={`mailto:${site.email}`}>{site.email}</a>
+            <dl className="contact__meta">
+              {wa && (
+                <div>
+                  <dt className="mono">WhatsApp</dt>
+                  <dd>
+                    <a href={wa} target="_blank" rel="noopener noreferrer" data-track="whatsapp_klick">{kontakt.wege.whatsapp}</a>
+                    <p className="small">{kontakt.wege.whatsappHinweis}</p>
+                  </dd>
+                </div>
+              )}
               <div>
-                <dt className="mono">{kontakt.wege.whatsapp.label}</dt>
+                <dt className="mono">Termin</dt>
                 <dd>
-                  <a href={wa} target="_blank" rel="noopener noreferrer" data-track="whatsapp_klick">{kontakt.wege.whatsapp.text}</a>
-                  <br />
-                  <span style={{ color: 'var(--muted)', fontSize: 15 }}>{kontakt.wege.whatsapp.hinweis}</span>
+                  <a href={site.calendlyUrl} target="_blank" rel="noopener noreferrer" data-track="calendly_klick">{kontakt.wege.termin}</a>
                 </dd>
               </div>
-            )}
-            <div>
-              <dt className="mono">{kontakt.wege.mail.label}</dt>
-              <dd><a href={`mailto:${site.email}`}>{site.email}</a></dd>
-            </div>
-            <div>
-              <dt className="mono">{kontakt.wege.adresse.label}</dt>
-              <dd>
-                {site.legalName}
-                <br />
-                {site.address.street}
-                <br />
-                {site.address.zip} {site.address.city}
-              </dd>
-            </div>
-          </dl>
+              <div>
+                <dt className="mono">{kontakt.wege.standort}</dt>
+                <dd>
+                  {site.legalName}
+                  <br />
+                  {site.address.street}
+                  <br />
+                  {site.address.zip} {site.address.city}
+                </dd>
+              </div>
+            </dl>
+          </div>
           <ContactForm idPrefix="kontakt" />
         </div>
       </section>
