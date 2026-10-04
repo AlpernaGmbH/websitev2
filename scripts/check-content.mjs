@@ -9,13 +9,14 @@ const melde = (datei, text) => probleme.push(`${datei}: ${text}`)
 
 // 1 Schreibregeln in content/texte.ts
 const texte = read('content/texte.ts')
-const verboten = ['Agentur', 'führend', 'massgeschneidert', 'ganzheitlich', 'holistisch', 'Synergie', 'Best Practice', 'Mehrwert', 'Stakeholder', 'Customer Journey', 'Game-Changer', 'disruptiv', 'viral', 'Reichweite', 'Hooks', 'Funnel', 'Onboarding', 'Touchpoint', 'performant', 'Lösung', 'Skalierung', 'Hörsaal', 'Student', 'Marketing', 'Next Level', 'nur noch', 'garantiert', 'Kündig', ' KI ']
+const verboten = ['Agentur', 'führend', 'massgeschneidert', 'ganzheitlich', 'holistisch', 'Synergie', 'Best Practice', 'Mehrwert', 'Stakeholder', 'Customer Journey', 'Game-Changer', 'disruptiv', 'viral', 'Reichweite', 'Hooks', 'Funnel', 'Onboarding', 'Touchpoint', 'performant', 'Lösung', 'Skalierung', 'Hörsaal', 'Student', 'Marketing-Agentur', 'Next Level', 'nur noch', 'garantiert', 'Kündig', ' KI ']
 const zeichen = [['—', 'Geviertstrich'], ['–', 'Halbgeviertstrich'], ['ß', 'ß statt ss'], ['…', 'Auslassungszeichen']]
 texte.split('\n').forEach((zeile, i) => {
   if (zeile.trim().startsWith('//')) return
   for (const w of verboten) if (zeile.toLowerCase().includes(w.toLowerCase())) melde('content/texte.ts', `Zeile ${i + 1}: verbotenes Wort «${w.trim()}»`)
   for (const [z, n] of zeichen) if (zeile.includes(z)) melde('content/texte.ts', `Zeile ${i + 1}: ${n}`)
   if (/[A-Za-zäöü]!(?!=)/.test(zeile.replace(/`[^`]*`/g, '')) && /'[^']*[A-Za-zäöü]![^']*'/.test(zeile)) melde('content/texte.ts', `Zeile ${i + 1}: Ausrufezeichen`)
+  if (/\bOST\b/.test(zeile)) melde('content/texte.ts', `Zeile ${i + 1}: Hochschule nicht nennen, nur «BWL in St. Gallen»`)
   if (/\d'\d/.test(zeile)) melde('content/texte.ts', `Zeile ${i + 1}: gerader Apostroph in Zahl`)
   if (/\d%/.test(zeile)) melde('content/texte.ts', `Zeile ${i + 1}: Prozent ohne Leerzeichen`)
 })
@@ -78,6 +79,23 @@ for (const v of videos) {
   if (!fs.existsSync(path.join(root, 'public', v.poster))) melde('data/videos.json', `${v.id}: Vorschaubild fehlt (${v.poster})`)
   if (v.projekt && !slugsProjekte.has(v.projekt)) melde('data/videos.json', `${v.id}: Projekt ${v.projekt} unbekannt`)
   if (v.url && !/^https:\/\/[a-z0-9]+\.public\.blob\.vercel-storage\.com\//.test(v.url)) melde('data/videos.json', `${v.id}: url zeigt nicht auf den Blob-Speicher`)
+}
+
+// 8 Statistiken: Quelle, Stand, Basis, https-Link, bekannte Leistung
+const stat = JSON.parse(read('data/statistiken.json'))
+const leistungen = ['website', 'google-profil', 'social-media', 'onlineshop', 'online-buchung', 'google-ads']
+for (const s of [...stat.statistiken, ...stat.diagramme]) {
+  for (const feld of ['quelle', 'url', 'stand', 'basis']) if (!s[feld]) melde('data/statistiken.json', `${s.id}: Feld «${feld}» fehlt`)
+  if (!/^https:\/\//.test(s.url ?? '')) melde('data/statistiken.json', `${s.id}: url ist kein https-Link`)
+  if (!leistungen.includes(s.leistung)) melde('data/statistiken.json', `${s.id}: Leistung ${s.leistung} unbekannt`)
+}
+for (const s of stat.statistiken) {
+  if (!s.zahl || !s.aussage) melde('data/statistiken.json', `${s.id}: zahl oder aussage fehlt`)
+  if (s.einheit === '%' && !(s.wert > 0 && s.wert <= 100)) melde('data/statistiken.json', `${s.id}: wert muss zwischen 0 und 100 liegen`)
+}
+for (const d of stat.diagramme) {
+  if (!d.daten?.length || d.daten.some((r) => !(r.wert >= 0 && r.wert <= 100))) melde('data/statistiken.json', `${d.id}: Werte müssen zwischen 0 und 100 liegen`)
+  if (d.hervorgehoben && !d.daten.some((r) => r.label === d.hervorgehoben)) melde('data/statistiken.json', `${d.id}: hervorgehobene Zeile fehlt`)
 }
 
 if (probleme.length) {

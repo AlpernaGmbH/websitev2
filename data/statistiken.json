@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "regel": "Jede Zahl auf den Leistungsseiten steht hier mit Quelle, Stand und Basis. Fehlt etwas davon, steht die Zahl nicht auf der Seite. Zahlen aus dem Ausland sind als solche beschriftet.",
+    "geprueft": "04.10.2026",
+    "pruefweg": "BFS-Werte direkt über die offene Schnittstelle des Bundesamts für Statistik (STAT-TAB, PxWeb) abgefragt. Übrige Zahlen auf der Quellseite im Wortlaut gelesen.",
+    "nichtGefunden": "Für das Google-Profil gibt es keine Schweizer Zahl mit sauberer Quelle. Die Seite zeigt deshalb Zahlen aus den USA und beschriftet sie so."
+  },
+  "statistiken": [
+    {
+      "id": "bfs-smartphone-2025",
+      "leistung": "website",
+      "zahl": "96,1 %",
+      "wert": 96.1,
+      "einheit": "%",
+      "aussage": "96,1 % der Bevölkerung nutzen für den Internetzugang ein Mobiltelefon oder Smartphone.",
+      "quelle": "Bundesamt für Statistik, Internetnutzungsmodalitäten und Kompetenzen (Omnibus IKT)",
+      "url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1604000000_106/px-x-1604000000_106/px-x-1604000000_106.px",
+      "stand": "Erhebung 2025",
+      "basis": "Wohnbevölkerung von 15 bis 88 Jahren, Schweiz"
+    },
+    {
+      "id": "bfs-woche-2025",
+      "leistung": "website",
+      "zahl": "98 %",
+      "wert": 98,
+      "einheit": "%",
+      "aussage": "98 % der Bevölkerung nutzen das Internet mindestens einmal pro Woche.",
+      "quelle": "Bundesamt für Statistik, Indikator «Internetnutzung»",
+      "url": "https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/informationsgesellschaft/gesamtindikatoren/haushalte-bevoelkerung/internetnutzung.html",
+      "stand": "Erhebung 2025",
+      "basis": "Personen von 16 bis 74 Jahren, Schweiz"
+    },
+    {
+      "id": "bfs-einkauf-2025",
+      "leistung": "onlineshop",
+      "zahl": "81 %",
+      "wert": 81,
+      "einheit": "%",
+      "aussage": "81 % der Bevölkerung haben in den letzten zwölf Monaten online eingekauft.",
+      "quelle": "Bundesamt für Statistik, Einzelpersonen und E-Commerce und E-Banking (Omnibus IKT)",
+      "url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1604000000_104/px-x-1604000000_104/px-x-1604000000_104.px",
+      "stand": "Erhebung 2025",
+      "basis": "Wohnbevölkerung von 15 bis 88 Jahren, Schweiz"
+    },
+    {
+      "id": "hv-onlinehandel-2025",
+      "leistung": "onlineshop",
+      "zahl": "CHF 15,8 Mrd.",
+      "aussage": "Privatpersonen bestellten 2025 in der Schweiz Waren für CHF 15,8 Mrd. online, 6 % mehr als im Vorjahr.",
+      "quelle": "HANDELSVERBAND.swiss mit NIQ und Die Schweizerische Post, Jahreserhebung Onlinehandel Schweiz 2025",
+      "url": "https://handelsverband.swiss/news/schweizer-online-konsum-waechst-im-jahr-2025-erneut-um-6-das-wachstum-der-einkaeufe-im-ausland-flacht-ab/",
+      "stand": "Jahr 2025, veröffentlicht im März 2026",
+      "basis": "Waren, die Privatpersonen online bestellten, inklusive Einkäufe bei Händlern im Ausland"
+    },
+    {
+      "id": "bl-bewertungen-2026",
+      "leistung": "google-profil",
+      "zahl": "97 %",
+      "wert": 97,
+      "einheit": "%",
+      "aussage": "In den USA lesen 97 % der Konsumenten Bewertungen zu lokalen Betrieben.",
+      "quelle": "BrightLocal, Local Consumer Review Survey 2026",
+      "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+      "stand": "veröffentlicht am 11.02.2026",
+      "basis": "1’002 Erwachsene in den USA, Online-Umfrage. In der Schweiz nicht erhoben"
+    },
+    {
+      "id": "bl-suche-2026",
+      "leistung": "google-profil",
+      "zahl": "52 %",
+      "wert": 52,
+      "einheit": "%",
+      "aussage": "In den USA starteten 52 % ihre letzte Suche nach einem lokalen Betrieb in der Google-Suche, weitere 9 % in Google Maps.",
+      "quelle": "BrightLocal, Consumer Search Behavior 2026",
+      "url": "https://www.brightlocal.com/research/consumer-search-behavior-channels/",
+      "stand": "veröffentlicht am 09.07.2026",
+      "basis": "1’227 Konsumenten in den USA, die in den letzten drei Monaten online einen lokalen Betrieb gesucht haben. In der Schweiz nicht erhoben"
+    },
+    {
+      "id": "sc-google-ch-2026",
+      "leistung": "google-ads",
+      "zahl": "80,19 %",
+      "wert": 80.19,
+      "einheit": "%",
+      "aussage": "Google hatte im September 2026 in der Schweiz einen Marktanteil von 80,19 % bei den Suchmaschinen.",
+      "quelle": "StatCounter Global Stats, Search Engine Market Share Switzerland",
+      "url": "https://gs.statcounter.com/search-engine-market-share/all/switzerland",
+      "stand": "September 2026, Monatswert",
+      "basis": "Messung von StatCounter, alle Geräte, Schweiz"
+    },
+    {
+      "id": "bfs-arzttermin-2025",
+      "leistung": "online-buchung",
+      "zahl": "35,4 %",
+      "wert": 35.4,
+      "einheit": "%",
+      "aussage": "35,4 % der Bevölkerung haben in den letzten drei Monaten online über die Website oder App einer Praxis oder eines Spitals einen Arzttermin vereinbart.",
+      "quelle": "Bundesamt für Statistik, Einzelpersonen und Online-Aktivitäten (Omnibus IKT)",
+      "url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1604000000_102/px-x-1604000000_102/px-x-1604000000_102.px",
+      "stand": "Erhebung 2025",
+      "basis": "Wohnbevölkerung von 15 bis 88 Jahren, Schweiz"
+    },
+    {
+      "id": "bfs-reisen-2025",
+      "leistung": "online-buchung",
+      "zahl": "63 %",
+      "wert": 63,
+      "einheit": "%",
+      "aussage": "63 % der Bevölkerung haben in den letzten drei Monaten online Dienstleistungen für Reisen oder Unterkunft genutzt.",
+      "quelle": "Bundesamt für Statistik, Einzelpersonen und Online-Aktivitäten (Omnibus IKT)",
+      "url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1604000000_102/px-x-1604000000_102/px-x-1604000000_102.px",
+      "stand": "Erhebung 2025",
+      "basis": "Wohnbevölkerung von 15 bis 88 Jahren, Schweiz, privat genutzt"
+    }
+  ],
+  "diagramme": [
+    {
+      "id": "info-alter-2025",
+      "leistung": "website",
+      "titel": "Online nach Gütern oder Dienstleistungen gesucht",
+      "untertitel": "Anteil der Personen, die in den letzten drei Monaten privat online Informationen zu Gütern oder Dienstleistungen gesucht haben, nach Alter",
+      "daten": [
+        {
+          "label": "Alle ab 15 Jahren",
+          "wert": 84.6
+        },
+        {
+          "label": "15 bis 29 Jahre",
+          "wert": 87.6
+        },
+        {
+          "label": "30 bis 59 Jahre",
+          "wert": 91.4
+        },
+        {
+          "label": "60 Jahre und älter",
+          "wert": 71.7
+        }
+      ],
+      "hervorgehoben": "30 bis 59 Jahre",
+      "quelle": "Bundesamt für Statistik, Einzelpersonen und Online-Aktivitäten (Omnibus IKT)",
+      "url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1604000000_102/px-x-1604000000_102/px-x-1604000000_102.px",
+      "stand": "Erhebung 2025",
+      "basis": "Wohnbevölkerung von 15 bis 88 Jahren, Schweiz"
+    },
+    {
+      "id": "netzwerk-alter-2025",
+      "leistung": "social-media",
+      "titel": "In einem sozialen Netzwerk aktiv",
+      "untertitel": "Anteil der Personen, die in den letzten drei Monaten privat an einem sozialen Netzwerk teilgenommen haben, nach Alter",
+      "daten": [
+        {
+          "label": "Alle ab 15 Jahren",
+          "wert": 68.9
+        },
+        {
+          "label": "15 bis 29 Jahre",
+          "wert": 95.4
+        },
+        {
+          "label": "30 bis 59 Jahre",
+          "wert": 77.5
+        },
+        {
+          "label": "60 Jahre und älter",
+          "wert": 38.5
+        }
+      ],
+      "hervorgehoben": "30 bis 59 Jahre",
+      "quelle": "Bundesamt für Statistik, Einzelpersonen und Online-Aktivitäten (Omnibus IKT)",
+      "url": "https://www.pxweb.bfs.admin.ch/pxweb/de/px-x-1604000000_102/px-x-1604000000_102/px-x-1604000000_102.px",
+      "stand": "Erhebung 2025",
+      "basis": "Wohnbevölkerung von 15 bis 88 Jahren, Schweiz"
+    }
+  ]
+}

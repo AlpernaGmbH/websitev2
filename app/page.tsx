@@ -4,10 +4,11 @@ import { ContactForm } from '@/components/ContactForm'
 import { Headline } from '@/components/Headline'
 import { ArrowRight } from '@/components/Icons'
 import { HeroTopo } from '@/components/HeroTopo'
+import { MehrTools } from '@/components/MehrTools'
 import { JsonLd } from '@/components/JsonLd'
 import { Statement } from '@/components/Statement'
 import { TeamSection } from '@/components/TeamSection'
-import { home, kontakt, whatsappText } from '@/content/texte'
+import { checkPage, home, kontakt, whatsappText } from '@/content/texte'
 import { bild } from '@/lib/images'
 import { faqLd, seite } from '@/lib/seo'
 import { site } from '@/site.config'
@@ -30,7 +31,6 @@ export default function Startseite() {
         <div className="container">
           <div className="hero__top mono">
             <span className="label">{h.hero.badge}</span>
-            <span className="muted">{h.hero.region}</span>
           </div>
           <h1 className="hero__title">
             {h.hero.zeilen.map((z, i) => (
@@ -52,29 +52,12 @@ export default function Startseite() {
                 {h.hero.ctaSekundaer.label}
               </Link>
             </div>
-            <p className="hero__coords mono">
-              {h.hero.koordinaten[0]}
-              <br />
-              {h.hero.koordinaten[1]}
-            </p>
           </div>
         </div>
 
         <div className="hero__visual on-dark" role="img" aria-label="Animierte Höhenlinien einer Berglandschaft">
           <HeroTopo />
-          <div className="peak" aria-hidden="true">
-            <span className="peak__dot" />
-            <span className="mono">{h.hero.gipfel}</span>
-          </div>
           <div className="hero__overlay">
-            <div className="hero__overlay-row mono" aria-hidden="true">
-              <span>
-                {h.hero.overlayLinks[0]}
-                <br />
-                {h.hero.overlayLinks[1]}
-              </span>
-              <span>{h.hero.scroll}</span>
-            </div>
             <div className="hero__overlay-row">
               <div className="founders">
                 <div className="founders__faces">
@@ -117,21 +100,43 @@ export default function Startseite() {
         </div>
         <ol className="service-list">
           {h.bausteine.liste.map((b, i) => (
-            <li className="service reveal" key={b.titel}>
-              <span className="service__num mono">0{i + 1}</span>
-              <div className="service__head">
-                <h3 className="service__title">{b.titel}</h3>
-                <span className="service__tag mono">{b.tag}</span>
-              </div>
-              <p className="service__desc">{b.text}</p>
-              <span className="service__arrow" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <path d="M3 8h10M9 4l4 4-4 4" />
-                </svg>
-              </span>
+            <li className="reveal" key={b.titel}>
+              <Link className="service" href={`/leistungen/${b.slug}`}>
+                <span className="service__num mono">0{i + 1}</span>
+                <div className="service__head">
+                  <h3 className="service__title">{b.titel}</h3>
+                  <span className="service__tag mono">{b.tag}</span>
+                </div>
+                <p className="service__desc">{b.text}</p>
+                <span className="service__arrow" aria-hidden="true">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6">
+                    <path d="M3 8h10M9 4l4 4-4 4" />
+                  </svg>
+                </span>
+              </Link>
             </li>
           ))}
         </ol>
+      </section>
+
+      {/* Marketing-Check */}
+      <section className="check-teaser container" aria-labelledby="check-h">
+        <div className="check-teaser__box on-dark">
+          <div className="check-teaser__copy">
+            <p className="mono label">{checkPage.teaser.label}</p>
+            <h2 id="check-h" className="check-teaser__title">
+              <Headline parts={checkPage.teaser.h2} />
+            </h2>
+            <p className="check-teaser__text">{checkPage.teaser.text}</p>
+          </div>
+          <div className="check-teaser__ctas">
+            <Link className="btn btn--light" href={checkPage.teaser.cta.href} data-track="cta_check">
+              {checkPage.teaser.cta.label}
+              <ArrowRight />
+            </Link>
+            <MehrTools className="btn btn--outline-light" />
+          </div>
+        </div>
       </section>
 
       {/* Warum Alperna */}

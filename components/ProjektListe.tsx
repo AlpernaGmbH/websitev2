@@ -1,8 +1,8 @@
 'use client'
 
-import Link from 'next/link'
 import { useMemo, useState } from 'react'
-import { ProjektKachel, type KachelDaten } from '@/components/ProjektKachel'
+import type { KachelDaten } from '@/components/ProjektKachel'
+import { ProjektKarte } from '@/components/ProjektKarte'
 
 export type ListeProjekt = KachelDaten & {
   slug: string
@@ -20,21 +20,11 @@ type Props = {
 }
 
 function Raster({ projekte, start, ebene }: { projekte: ListeProjekt[]; start: number; ebene: 'h2' | 'h3' }) {
-  const Titel = ebene
   return (
     <ol className="pgrid">
       {projekte.map((p, i) => (
         <li key={p.slug}>
-          <Link className="ptile" href={`/projekte/${p.slug}`}>
-            <ProjektKachel name={p.name} tag={p.tag} cover={p.cover} kpi={p.kpi} index={start + i} sizes="(max-width: 640px) 92vw, (max-width: 1000px) 46vw, 31vw" />
-            <div className="ptile__meta">
-              <span className="ptile__num mono">{String(start + i + 1).padStart(2, '0')}</span>
-              <div>
-                <Titel className="ptile__name">{p.name}</Titel>
-                <p className="ptile__tags mono">{p.art}</p>
-              </div>
-            </div>
-          </Link>
+          <ProjektKarte p={p} nr={start + i + 1} index={start + i} ebene={ebene} />
         </li>
       ))}
     </ol>

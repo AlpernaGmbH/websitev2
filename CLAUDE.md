@@ -12,7 +12,8 @@ Das Repo ist öffentlich. Interne Dokumente (Plan, COMPANY-MASTER, Zahlen zu Ums
 2. Bau Release 1: Tokens, Komponenten, Seiten, Formular, SEO, Vorschau-Deploy. Erledigt, Videos fehlen noch.
 3. QA, danach Go-live. Domain und DNS klärt das Team später. Zum Go-live `NEXT_PUBLIC_INDEXABLE=1` setzen.
 
-Release 1 enthält nicht: CMS, Marketing-Check, Motion-Spielereien, Preisseite, Mehrsprachigkeit, Blog auf Du umschreiben.
+Release 1 enthält nicht: CMS, Motion-Spielereien, Preisseite, Mehrsprachigkeit, Blog auf Du umschreiben.
+Der Marketing-Check ist seit 04.10.2026 enthalten (Seite `/check`, Route `/api/check`). Die Analyse läuft im Agentur-Tool von Alperna (`CHECK_API_URL`, Standard `https://alperna-tool.vercel.app/api/website/analyze`).
 
 ## Harte Regeln
 1. **Framer wird nur gelesen.** Keine Änderungen, kein Publish, keine CMS-Edits. Quelle sind die öffentlichen Seiten.
@@ -26,6 +27,8 @@ Release 1 enthält nicht: CMS, Marketing-Check, Motion-Spielereien, Preisseite, 
 ## Texte
 - Basis ist der Prototyp, korrigiert nach Plan 5.4 und den Brand-Dokumenten. Nichts von der Framer-Seite kopieren.
 - Ausnahmen: Blogbeiträge 1:1 (SEO), Kundenzitate wörtlich, Impressum und Datenschutz bis zur Anpassung durch Menschen. Projekte: Fakten und Zahlen stammen von der Live-Site, die Formulierungen sind neu.
+- Studium nur als «BWL in St. Gallen», ohne Hochschulname. Erfahrung als «seit drei Jahren dabei», nicht als «frisch gegründet». Beides steht in `site.config.ts` (`studium`, `seitJahren`). Keine Gym-Geschichte.
+- Leistungsseiten (`/leistungen/<slug>`): Zahlen nur aus `data/statistiken.json` mit Quelle, Stand und Basis. Schweizer Quelle bevorzugt, Zahlen aus dem Ausland sind beschriftet. BFS-Werte lassen sich über die offene Schnittstelle (STAT-TAB, PxWeb) nachprüfen.
 - Die Startseite zeigt wie der Prototyp keine Projekte, Logos oder Zitate. Beleg steht im Aussagesatz («28 Partner») und unter Projekte.
 
 ## Sprache und Ton
@@ -71,8 +74,8 @@ Pro Kunde immer nur den nächsten Baustein vorschlagen. Retainer-Preise stehen n
 - Prototyp-Dateien als Design-Vorlage unter `reference/`, sobald sie im Repo liegen. Der Prototyp auf Vercel setzt vor dem Go-live `noindex` oder wird gelöscht.
 
 ## Ordner
-- `site.config.ts`: Konstanten (Partnerzahl, Adresse, UID, Preise, Links)
+- `site.config.ts`: Konstanten (Partnerzahl, Adresse, UID, Preise, Links, `toolsUrl` für «Mehr Tools», bewusst leer)
 - `content/texte.ts`: alle Seitentexte. `content/blog/`: 40 Beiträge. `content/legal/`: Impressum und Datenschutz der bisherigen Website
-- `data/projekte.json`, `data/testimonials.json`, `data/images.json`: Projekte, Zitate, Bildverzeichnis mit Alt-Texten
+- `data/projekte.json`, `data/testimonials.json`, `data/images.json`, `data/videos.json`, `data/statistiken.json`: Projekte, Zitate, Bildverzeichnis mit Alt-Texten, Videos, Zahlen mit Quelle
 - `scripts/migrate/`: einmalige Migration von der Framer-Site (Bilder, Blog, Projekte). Framer wird nur gelesen
 - `app/`, `components/`, `lib/`: Seiten, Bausteine, Hilfsfunktionen
