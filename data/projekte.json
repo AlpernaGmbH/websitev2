@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "quelle": "https://www.alperna.ch/projekte und die 14 Detailseiten, gelesen am 04.10.2026",
+    "regel": "Jede Zahl auf der neuen Website stammt aus dieser Datei. Fehlt sie hier, steht sie nicht auf der Seite.",
+    "hinweis": "Kennzahlen und Ausgangslage sind unverändert von der Live-Site. Die Texte der Detailseiten werden separat nach BRAND-VOICE neu geschrieben.",
+    "bausteineSchluessel": ["website", "google-profil", "social-media", "video", "event"],
+    "bausteineHinweis": "Zuordnung zu den Filtern ist ein Vorschlag. Kein Projekt belegt den Baustein «google-profil»."
+  },
+  "projekte": [
+    {
+      "slug": "bc-trogen-speicher",
+      "name": "BC Trogen Speicher",
+      "art": "Sportverein (Badminton)",
+      "bereich": "regional",
+      "bausteine": ["social-media", "video"],
+      "zeitraum": "3 Monate",
+      "zeitraumHinweis": "Startseite der Live-Site nennt «1 Monat». Bis zur Klärung nicht im Text nennen.",
+      "kanaele": ["Instagram"],
+      "kennzahlen": [
+        { "wert": "+690 %", "label": "Instagram-Aufrufe" },
+        { "wert": "74’300", "label": "Aufrufe" },
+        { "wert": "21", "label": "erstellte Beiträge" },
+        { "wert": "1’527", "label": "Interaktionen" }
+      ],
+      "leistungen": ["Analyse und Zieldefinition", "Produktion vor Ort", "Beiträge und Posting"],
+      "ausgangslage": "Ein aktiver Verein mit echtem Vereinsleben. Was in der Halle passiert, bekommt ausserhalb aber niemand mit: Turniere, Trainings, Highlights blieben intern.",
+      "zitat": "bc-trogen-speicher"
+    },
+    {
+      "slug": "regina-massagen",
+      "name": "Regina Massagen",
+      "art": "Massagepraxis",
+      "bereich": "regional",
+      "bausteine": ["website", "social-media"],
+      "zeitraum": "Laufendes Mandat",
+      "kanaele": ["Website", "Instagram"],
+      "kennzahlen": [
+        { "wert": "rund 12", "label": "Kontakt-Klicks in den ersten sechs Wochen" },
+        { "wert": "500+", "label": "Bilder produziert" },
+        { "wert": "20", "label": "Video-Assets" }
+      ],
+      "kennzahlenHinweis": "Die Live-Site nennt zusätzlich «8–12 % Conversion» ohne Bezugsgrösse. Nicht übernommen.",
+      "leistungen": ["Website-Erstellung", "Professionelles Shooting", "Social-Media-Profil"],
+      "ausgangslage": "Eine Einzelpraxis mit guter Arbeit, aber neue Kundinnen kamen vor allem über Empfehlung. Online war Regina kaum greifbar: keine richtige Website, kein professionelles Material, kein sauber aufgesetztes Social Media."
+    },
+    {
+      "slug": "gustav-kahn",
+      "name": "Gustav Kahn",
+      "art": "Restaurant in Romanshorn",
+      "bereich": "regional",
+      "bausteine": ["video"],
+      "zeitraum": "Einzelprojekt",
+      "kanaele": ["Social Media"],
+      "kennzahlen": [
+        { "wert": "3", "label": "Reels" },
+        { "wert": "1", "label": "Drehtag" }
+      ],
+      "leistungen": ["Videoproduktion für Social Media"],
+      "ausgangslage": "Das Restaurant Gustav Kahn liegt in Romanshorn direkt am Hafen. Die Lage ist das Argument, mit dem Gäste den Weg auf sich nehmen. Auf den Social-Media-Kanälen war davon nichts zu sehen: keine Videos vom Betrieb, keine Aufnahmen der Terrasse."
+    },
+    {
+      "slug": "gewerbeverband-ar",
+      "name": "Gewerbeverband AR",
+      "art": "Wirtschaftsverband",
+      "bereich": "regional",
+      "bausteine": ["event", "video"],
+      "zeitraum": "Einzelprojekt",
+      "anlass": "Sommerkonferenz",
+      "kanaele": [],
+      "kennzahlen": [
+        { "wert": "1", "label": "Recap-Video" },
+        { "wert": "40", "label": "Fotos" }
+      ],
+      "leistungen": ["Eventdokumentation, Recap-Video und Portraits"],
+      "ausgangslage": "Der Gewerbeverband AR veranstaltet die Sommerkonferenz gemeinsam mit dem Verein Energie AR/AI: zwei Referate, eine Debatte, Apéro im Freien. Vom Anlass gab es bisher weder Videomaterial noch Bilder, weder für den Verband noch für die Referenten.",
+      "lieferung": "Das Recap-Video wurde wenige Tage nach dem Anlass ausgeliefert."
+    },
+    {
+      "slug": "appenzellerland-sport",
+      "name": "Appenzellerland Sport",
+      "art": "Sportschule",
+      "bereich": "regional",
+      "bausteine": ["social-media"],
+      "zeitraum": "Einmaliges Analyse-Projekt",
+      "kanaele": ["Instagram"],
+      "kennzahlen": [
+        { "wert": "4", "label": "Analysefelder" },
+        { "wert": "3", "label": "Auswertungen" },
+        { "wert": "1", "label": "Handlungsplan" }
+      ],
+      "leistungen": ["Status-Quo-Audit", "Zielgruppen-Analyse", "Branding-Check und Empfehlungen"],
+      "ausgangslage": "Die Sportschule Appenzellerland Sport betrieb Social Media nach Bauchgefühl. Es fehlte Klarheit darüber, welche Inhalte funktionieren, wer die Zielgruppe wirklich ist und was als Nächstes zu tun wäre.",
+      "zitat": "appenzellerland-sport"
+    },
+    {
+      "slug": "lifeboost",
+      "name": "LifeBoost",
+      "art": "Life-Coaching",
+      "bereich": "regional",
+      "bausteine": ["website", "social-media"],
+      "zeitraum": "1 Jahr",
+      "kanaele": ["Website"],
+      "kennzahlen": [
+        { "wert": "2 Wochen", "label": "bis zum Launch, ohne Ausfall" },
+        { "wert": "150", "label": "Fotos" },
+        { "wert": "30+", "label": "Video-Assets" }
+      ],
+      "kennzahlenHinweis": "Startseite der Live-Site nennt 20 Videos, die Detailseite über 30. Hier gilt die Detailseite.",
+      "leistungen": ["Fotoshooting", "Website Design", "Unterstützung beim Branding"],
+      "ausgangslage": "LifeBoost hatte sich am Markt etabliert. Die bestehende Website war lang im Einsatz, entsprach aber optisch und technisch nicht mehr dem Standard, den LifeBoost selbst an seine Produkte anlegt."
+    },
+    {
+      "slug": "alex-breitenmoser",
+      "name": "Alex Breitenmoser",
+      "art": "Vertriebs-Coaching",
+      "bereich": "regional",
+      "bausteine": ["website", "social-media", "video"],
+      "zeitraum": "Laufendes Mandat",
+      "kanaele": ["Instagram", "YouTube"],
+      "kennzahlen": [
+        { "wert": "459’400", "label": "Gesamtaufrufe" },
+        { "wert": "303’000", "label": "Aufrufe Top-Video" },
+        { "wert": "+500", "label": "neue Follower" },
+        { "wert": "10+", "label": "Videos produziert" }
+      ],
+      "kennzahlenHinweis": "Startseite der Live-Site nennt 519’000 Aufrufe in 3 Monaten. Detailseite und Meta-Beschreibung nennen 459’400. Hier gilt 459’400.",
+      "leistungen": ["Strategie und Positionierung", "Website", "Portrait- und Video-Assets", "Social-Media-Management"],
+      "ausgangslage": "Alex ist Praktiker im Vertrieb, kein Coach, der nur darüber redet. Das Coaching hatte Qualität, der Instagram-Auftritt zeigte das nicht: generisch, ohne roten Faden, ohne Wiedererkennung. Keine Website, keine klare Positionierung.",
+      "zitat": "alex-breitenmoser"
+    },
+    {
+      "slug": "klartext-von-zwei-kanten",
+      "name": "Klartext von 2 Kanten",
+      "art": "Podcast (Finanzen)",
+      "bereich": "regional",
+      "bausteine": ["social-media", "video"],
+      "zeitraum": "1 Monat",
+      "kanaele": ["Instagram", "X", "Threads"],
+      "kennzahlen": [
+        { "wert": "178’000", "label": "Gesamtaufrufe" },
+        { "wert": "50’000", "label": "Aufrufe erstes Video" },
+        { "wert": "763", "label": "Podcast-Hörer" },
+        { "wert": "2’263", "label": "Likes" }
+      ],
+      "leistungen": ["Aufnahme vor Ort", "Strategische Neupositionierung", "Kurzvideos und Text-Posts"],
+      "ausgangslage": "Der Podcast hatte bereits eine treue Hörerschaft, machte aber alles selbst: von der Aufnahme bis zum Schnitt. Die Hosts wollten den Kopf frei für Gäste und Inhalte.",
+      "zitat": "klartext-von-zwei-kanten"
+    },
+    {
+      "slug": "beyond-borders-daydance",
+      "name": "Beyond Borders & Joshua Broger",
+      "art": "Musik und Auftritte",
+      "bereich": "regional",
+      "bausteine": ["event", "video"],
+      "zeitraum": "Einzelprojekt",
+      "anlass": "Daydance",
+      "kanaele": [],
+      "kennzahlen": [
+        { "wert": "200", "label": "Fotos" },
+        { "wert": "120", "label": "Videos" },
+        { "wert": "12 Stunden", "label": "vor Ort, 10 bis 22 Uhr" }
+      ],
+      "leistungen": ["Ganztägige Eventfilmung, Fotos und Reel"],
+      "ausgangslage": "Beyond Borders von Sinno und Joshua Broger traten am Daydance gemeinsam auf, veranstaltet von der Vadian Event AG. Beide Künstler brauchten Material für ihre eigenen Kanäle, vom Auftritt und vom Tag drumherum."
+    },
+    {
+      "slug": "i-love-zero",
+      "name": "I love Zero",
+      "art": "Kleidermarke",
+      "bereich": "regional",
+      "bausteine": ["video"],
+      "zeitraum": "Einzelprojekt",
+      "kanaele": ["Social Media"],
+      "kennzahlen": [
+        { "wert": "40", "label": "Fotos" },
+        { "wert": "15", "label": "Videos" },
+        { "wert": "1", "label": "Shooting, an einem Nachmittag" }
+      ],
+      "leistungen": ["Foto- und Videoproduktion für eine Kleidermarke"],
+      "ausgangslage": "I love Zero ist eine junge Kleidermarke mit Schweizer Positionierung. Für die Kollektion fehlten eigene Aufnahmen: keine Produktbilder, kein Videomaterial, nichts für die Social-Media-Kanäle. Am Daydance fragte die Marke spontan an."
+    },
+    {
+      "slug": "nordcloud",
+      "name": "Nordcloud, an IBM Company",
+      "art": "Cloud-Dienstleistungen",
+      "bereich": "international",
+      "bausteine": ["video", "event"],
+      "zeitraum": "Einzelprojekt",
+      "kanaele": ["LinkedIn"],
+      "kennzahlen": [
+        { "wert": "1", "label": "produziertes Video" },
+        { "wert": "1", "label": "Filmsession" },
+        { "wert": "44’000", "label": "LinkedIn-Follower des Kunden" }
+      ],
+      "leistungen": ["Videoproduktion für LinkedIn"],
+      "ausgangslage": "Nordcloud, Teil des IBM-Konzerns, war mit einem Stand an den Startup Nights in Winterthur. Für den LinkedIn-Kanal mit rund 44’000 Followern gab es vom Anlass kein Videomaterial, niemand war fürs Filmen eingeplant.",
+      "zitat": "nordcloud"
+    },
+    {
+      "slug": "whitetail-fever",
+      "name": "Whitetail Fever",
+      "art": "E-Commerce (Jagdsport und Outdoor)",
+      "bereich": "international",
+      "bausteine": ["social-media"],
+      "zeitraum": "6 Monate",
+      "zeitraumHinweis": "Startseite der Live-Site nennt «1 Monat». Bis zur Klärung nicht im Text nennen.",
+      "kanaele": ["Instagram", "Facebook", "TikTok"],
+      "kennzahlen": [
+        { "wert": "49 Mio.", "label": "Aufrufe organisch" },
+        { "wert": "70’000", "label": "Follower gewonnen" },
+        { "wert": "1,7 Mio.", "label": "Interaktionen" }
+      ],
+      "leistungen": ["Analyse und Markenstimme", "Content-Produktion", "Community Management"],
+      "ausgangslage": "Die Marke Whitetail Fever hatte ohne Werbebudget bereits eine loyale Basis aufgebaut. Das Team stiess an seine Kapazitätsgrenze: die Frequenz hochhalten und gleichzeitig das Kerngeschäft führen ging nicht mehr.",
+      "zitat": "whitetail-fever"
+    },
+    {
+      "slug": "boostraft",
+      "name": "Boostraft",
+      "art": "YouTube-Agentur",
+      "bereich": "international",
+      "bausteine": ["social-media"],
+      "zeitraum": "1 Monat",
+      "zeitraumHinweis": "Startseite der Live-Site nennt «3 Monate». Detailseite und Meta nennen 30 Tage.",
+      "kanaele": ["Instagram", "LinkedIn"],
+      "kennzahlen": [
+        { "wert": "412", "label": "qualifizierte Leads" },
+        { "wert": "1’100", "label": "neue Follower" },
+        { "wert": "194’784", "label": "Aufrufe" }
+      ],
+      "leistungen": ["Tiefenanalyse und Neupositionierung", "Content-Produktion", "Lead-Generierung"],
+      "ausgangslage": "Boostraft war mit 78 Followern gestartet und generierte null planbare Leads. Die Inhalte hatten keinen roten Faden, keine klare Zielgruppenansprache und keinen Call-to-Action.",
+      "zitat": "boostraft"
+    },
+    {
+      "slug": "pocket-properties-app",
+      "name": "Pocket Properties App",
+      "art": "Fintech und Immobilien-Crowdfunding",
+      "bereich": "international",
+      "bausteine": ["social-media"],
+      "zeitraum": "3 Monate",
+      "kanaele": ["Instagram", "X", "Threads"],
+      "kennzahlen": [
+        { "wert": "298’246", "label": "Aufrufe" },
+        { "wert": "1’507", "label": "Interaktionen" },
+        { "wert": "1’155", "label": "neue Follower" }
+      ],
+      "leistungen": ["Neupositionierung als Bildungsplattform", "Profil-Optimierung", "Text-Content für X und Threads", "Video-Content"],
+      "ausgangslage": "Eine starke Vision, aber im Fintech-Bereich zögern Kleinanleger ohne bekannte Marke. Die Technologie war da, die Kommunikation fehlte. Es brauchte eine Brücke zwischen komplexen Finanzthemen und verständlichem Inhalt.",
+      "zitat": "pocket-properties-app"
+    }
+  ]
+}
