@@ -24,7 +24,7 @@ intro: Wir sind Andrej und Leander, Alperna GmbH in Speicher AR. Frisch gegründ
 
 kennzahlen:
 - {partnerAnzahl} | Partner, mit denen wir gearbeitet haben
-- +690 % | Instagram-Aufrufe beim BC Trogen Speicher
+- +690 % | Instagram-Aufrufe beim BC Trogen Speicher, in 3 Monaten
 - 25’000+ | Beiträge erstellt
 
 logo-leiste-titel: Zusammengearbeitet haben wir unter anderem mit
@@ -48,7 +48,7 @@ intro: Wir starten meist mit der Website. Danach schlagen wir dir immer nur den 
 
 bausteine:
 01. Website | Einstieg, ab ca. CHF 1’000 | Eine Website, die auf dem Handy überzeugt und Anfragen bringt. Mit eigenem Shooting ca. CHF 2’000.
-02. Google-Unternehmensprofil | Wer nach deiner Branche in der Region sucht, findet dich bei Google und auf Google Maps. Wir richten dein Profil ein oder bringen es in Ordnung.
+02. Google-Unternehmensprofil | Wer nach deiner Branche in der Region sucht, findet dich bei Google und auf Google Maps. Wir richten dein Profil ein oder bringen es in Ordnung. Umgesetzt haben wir das unter anderem für Regina Massagen.
 03. Social Media | Beiträge und Videos, die zu deinen Kunden passen. Wir planen, produzieren und posten, auf Wunsch komplett für dich. Ein einzelner Beitrag ab CHF 180.
 04. Onlineshop | Deine Produkte online verkaufen, ohne dich in die Technik einzuarbeiten. Umfang und Preis besprechen wir im Gespräch.
 05. Online-Buchung | Deine Kunden buchen Termine selbst, auch abends und am Wochenende. Das spart dir Telefonate und Nachrichten.
@@ -63,9 +63,9 @@ link: Alle Projekte → /projekte
 karten:
 1. BC Trogen Speicher | Sportverein, Badminton | Social Media und Video
    fall: Turniere und Trainings blieben intern. Ausserhalb der Halle sah niemand das Vereinsleben.
-   zahl: +690 % Instagram-Aufrufe
+   zahl: +690 % Instagram-Aufrufe in 3 Monaten
    einordnung: Wir haben an Turnieren gedreht, 21 Beiträge produziert und das Posting komplett übernommen.
-2. Regina Massagen | Massagepraxis | Website und Shooting
+2. Regina Massagen | Massagepraxis | Website, Shooting und Google-Profil
    fall: Neue Kundinnen kamen vor allem über Empfehlung. Online war die Praxis kaum greifbar.
    zahl: Rund 12 Kontakt-Klicks in den ersten sechs Wochen
    einordnung: Dazu über 500 Bilder und 20 Video-Assets, die Regina selbst einsetzt.
@@ -83,16 +83,17 @@ karten:
    einordnung: Dazu 150 Fotos und über 30 Video-Assets für Instagram.
 6. Alex Breitenmoser | Vertriebs-Coaching | Strategie, Website, Social Media
    fall: Gutes Coaching, aber ein Auftritt ohne roten Faden und ohne Website.
-   zahl: 459’400 Aufrufe, ein Video allein mit 303’000
+   zahl: 519’000 Aufrufe, ein Video allein mit 303’000
    einordnung: Die Reels füllen seine Nachrichten mit Anfragen.
 
 ## 6 Stimmen
 
 h2: Das sagen unsere Partner.
-intro: Drei Stimmen als Text, dazu drei Partner direkt im Video.
+intro: Drei Partner im Video, zwei als Text.
 
-zitate: BC Trogen Speicher, Appenzellerland Sport, Alex Breitenmoser (Text aus `data/testimonials.json`)
-videos: 3 Video-Testimonials (Zuordnung offen, siehe Übergabe)
+videos: Appenzellerland Sport, BC Trogen Speicher, LifeBoost (3 Video-Testimonials)
+zitate: Alex Breitenmoser, Klartext von 2 Kanten (Text aus `data/testimonials.json`)
+hinweis: Die Zitate von Appenzellerland Sport und BC Trogen Speicher stehen auf den Projektseiten, damit dieselben Partner nicht doppelt erscheinen.
 
 ## 7 Ablauf
 
@@ -103,7 +104,7 @@ cta: Erstgespräch vereinbaren → #kontakt
 etappen:
 01. Kennenlernen | Ein kostenloses Erstgespräch, 30 Minuten, bei dir im Betrieb oder per Video. Wir hören zu und prüfen, ob wir zusammenpassen.
 02. Vorschlag | Wir schauen uns deinen heutigen Auftritt an und schlagen dir den nächsten sinnvollen Baustein vor, mit klarem Preis.
-03. Umsetzung | Wir setzen den Baustein um und halten dich mit kurzen Updates auf dem Laufenden. Nichts geht online, ohne dass du es gesehen hast.
+03. Umsetzung | Wir setzen den Baustein um und halten dich mit kurzen Updates auf dem Laufenden. Du siehst, woran wir arbeiten und warum.
 04. Betreuung | Auf Wunsch betreuen wir deinen Auftritt weiter: Hosting, Anpassungen, Beiträge. Du erreichst uns per WhatsApp oder E-Mail, 365 Tage im Jahr.
 
 ## 8 Warum Alperna
@@ -120,8 +121,8 @@ punkte:
 h2: Wer bei dir am Tisch sitzt.
 
 karten:
-- Andrej Good | Mitgründer | Andrej schreibt die Texte, baut die Websites und filmt vor Ort.
-- Leander Züst | Mitgründer | Leander plant die Inhalte und schneidet die Videos.
+- Andrej Good | Mitgründer | Ich schreibe die Texte, baue die Websites und filme vor Ort. Was ich dir zusage, halte ich. Wenn ein Schritt nichts bringt, sage ich es dir.
+- Leander Züst | Mitgründer | Ich plane die Inhalte und schneide die Videos. Mir ist wichtig, dass das Material nach deinem Betrieb aussieht und nicht nach Vorlage.
 links: LinkedIn und Instagram je Person, aus `site.config.ts`
 
 ## 10 Blog
@@ -137,13 +138,13 @@ link: Alle Beiträge → /blog
 Ja, wir sind jung und frisch gegründet. Wir studieren beide BWL an der OST und suchen aktiv Aufträge. Deshalb ist der Preis jetzt fair. Trotzdem kommen wir nicht bei null an: Unter Projekte siehst du, was wir schon umgesetzt haben, mit Zahlen.
 
 ### Wie lange bin ich gebunden?
-Eine Website ist ein einmaliger Auftrag. Für Hosting und laufende Betreuung gibt es keine feste Mindestlaufzeit. Die Betreuung läuft monatlich weiter, und du beendest sie schriftlich bis zum 15. des Monats.
+Wir arbeiten ohne lange Vertragslaufzeiten. Eine Website ist ein einmaliger Auftrag. Für Hosting und laufende Betreuung besprechen wir die Konditionen transparent im Erstgespräch.
 
 ### Was kostet der Einstieg?
 Eine Website kostet ab ca. CHF 1’000, mit eigenem Shooting ca. CHF 2’000. Ein einzelner Social-Media-Beitrag kostet CHF 180. Alles Weitere besprechen wir nach dem Erstgespräch, damit du nur bezahlst, was dein Betrieb braucht.
 
 ### Bringt das in unserer Region etwas?
-Wir haben es in der Region schon umgesetzt. Der BC Trogen Speicher hat 690 % mehr Instagram-Aufrufe, die Website der Massagepraxis Regina brachte rund 12 Kontakt-Klicks in den ersten sechs Wochen. Ob es bei dir etwas bringt, klären wir im Erstgespräch. Das kostet nichts.
+Wir haben es in der Region schon umgesetzt. Der BC Trogen Speicher hat in 3 Monaten 690 % mehr Instagram-Aufrufe erzielt, die Website der Massagepraxis Regina brachte rund 12 Kontakt-Klicks in den ersten sechs Wochen. Ob es bei dir etwas bringt, klären wir im Erstgespräch. Das kostet nichts.
 
 ### Versteht ihr unser Geschäft?
 Wir fragen zuerst, bevor wir etwas vorschlagen. Im Erstgespräch erzählst du uns von deinem Betrieb, wir schauen uns deinen Auftritt an und sagen dir offen, was wir sehen. Erfahrung haben wir unter anderem mit einem Restaurant, einer Massagepraxis, einem Sportverein, Coaching und einem Gewerbeverband.

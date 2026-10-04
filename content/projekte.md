@@ -15,8 +15,7 @@ sub: Jeder Betrieb ist anders. Hier siehst du, was wir umgesetzt haben, mit Ausg
 
 ## Filter
 
-labels: Alle, Website, Social Media, Video, Event
-hinweis: «Google-Profil» als Filter erst einblenden, wenn ein Projekt dazu vorliegt.
+labels: Alle, Website, Google-Profil, Social Media, Video, Event
 
 ## Reihenfolge
 

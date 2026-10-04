@@ -16,7 +16,7 @@ sub: Alperna ist frisch gegründet. Die Arbeit dahinter ist es nicht.
 - {partnerAnzahl} | Partner, mit denen wir gearbeitet haben
 - 25’000+ | Beiträge erstellt
 - 3 Jahre | gemeinsame Arbeit an Social-Media-Projekten
-- {websitesErstellt} | Websites erstellt (erscheint erst, wenn die Zahl feststeht)
+- {websitesErstellt} | Websites erstellt (vorerst weggelassen, Zahl nicht exakt gezählt)
 
 ## Wie es dazu kam
 
@@ -39,10 +39,9 @@ link: Projekte ansehen → /projekte
 h2: Die Gründer
 
 karten:
-- Andrej Good | Mitgründer | Andrej schreibt die Texte, baut die Websites und filmt vor Ort. Er kümmert sich auch um die Technik hinter dem Auftritt.
-- Leander Züst | Mitgründer | Leander plant die Inhalte und schneidet die Videos. Er sorgt dafür, dass Bild und Ton zu deinem Betrieb passen.
+- Andrej Good | Mitgründer | Ich schreibe die Texte, baue die Websites und filme vor Ort. Auch die Technik hinter dem Auftritt liegt bei mir. Was ich dir zusage, halte ich. Wenn ein Schritt nichts bringt, sage ich es dir.
+- Leander Züst | Mitgründer | Ich plane die Inhalte und schneide die Videos. Mir ist wichtig, dass das Material nach deinem Betrieb aussieht und nicht nach Vorlage.
 links: LinkedIn und Instagram je Person, aus `site.config.ts`
-offen: Je ein persönlicher Satz von Andrej und Leander. Die obigen Sätze beschreiben nur die Rolle.
 
 ## Hinter den Kulissen
 

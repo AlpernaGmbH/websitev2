@@ -22,7 +22,8 @@ export const site = {
   partnerAnzahl: 28,
   // Anzeige als «25’000+». Quelle: COMPANY-MASTER 8.2.
   beitraegeErstellt: 25000,
-  // OFFEN: Anzahl erstellter Websites. Solange null, zeigt keine Seite diese Zahl.
+  // Anzahl erstellter Websites: grob gezählt (ca. 7), nicht exakt. Solange null, zeigt keine Seite diese Zahl.
+  // Erst eintragen, wenn im Notion-CRM sauber gezählt.
   websitesErstellt: null as number | null,
 
   // Richtpreise für die Orientierung auf der Website. Quelle: COMPANY-MASTER 3.1, 3.5, 3.6.
@@ -43,8 +44,8 @@ export const site = {
   },
 
   calendlyUrl: 'https://calendly.com/alperna/erstkontakt',
-  // OFFEN: WhatsApp-Nummer im internationalen Format, z. B. '41791234567'.
-  whatsapp: null as string | null,
+  // WhatsApp Business, internationales Format ohne Plus. Nur Nachrichten, keine Anrufe.
+  whatsapp: '41798513631' as string | null,
   // Bewusst leer: Anrufe werden nicht beantwortet. Kein tel:-Link auf der Website.
   telefon: null,
 

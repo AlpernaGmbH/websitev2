@@ -10,14 +10,14 @@
       "firma": "BC Trogen Speicher",
       "branche": "Sportverein (Badminton)",
       "text": "Alperna hat nicht nur die Aufrufe unseres Instagram-Profils um 690 % erhöht, sondern hat auch nützliche Daten zur Entwicklung unserer Social-Media-Präsenz geliefert.",
-      "fuerStartseite": true
+      "fuerStartseite": false
     },
     {
       "projekt": "appenzellerland-sport",
       "firma": "Appenzellerland Sport",
       "branche": "Sportschule",
       "text": "Wir sind sehr mit der Arbeit von Alperna zufrieden. Wir haben viele Hinweise erhalten, wie wir unseren Instagram-Kanal verbessern können, und empfehlen sie weiter.",
-      "fuerStartseite": true
+      "fuerStartseite": false
     },
     {
       "projekt": "alex-breitenmoser",
@@ -31,7 +31,7 @@
       "firma": "Klartext von 2 Kanten",
       "branche": "Podcast",
       "text": "Unser erster Beitrag von Alperna hat über 50’000 Menschen erreicht. Wir sind sehr von der Genauigkeit und Geschwindigkeit von Alperna überrascht.",
-      "fuerStartseite": false
+      "fuerStartseite": true
     },
     {
       "projekt": "pocket-properties-app",
@@ -61,5 +61,20 @@
       "text": "Alperna hat die Präsenz unseres E-Commerce Accounts um über 70’000 Follower erweitert und dabei sowohl für Instagram, Facebook und TikTok die Produktion übernommen.",
       "fuerStartseite": false
     }
-  ]
+  ],
+  "videos": [
+    {
+      "projekt": "appenzellerland-sport",
+      "datei": null
+    },
+    {
+      "projekt": "bc-trogen-speicher",
+      "datei": null
+    },
+    {
+      "projekt": "lifeboost",
+      "datei": null
+    }
+  ],
+  "videosHinweis": "Reihenfolge und Zuordnung der Dateien beim Asset-Download klären. Die Zitate von Appenzellerland Sport und BC Trogen Speicher stehen auf den Projektseiten."
 }
