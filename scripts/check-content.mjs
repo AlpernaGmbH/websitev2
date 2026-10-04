@@ -61,7 +61,9 @@ for (const s of slugs) {
 const projekte = JSON.parse(read('data/projekte.json')).projekte
 if (projekte.length !== 14) melde('data/projekte.json', `${projekte.length} Projekte statt 14`)
 for (const p of projekte) {
-  for (const id of [p.logo, ...p.fotos].filter(Boolean)) if (!imgs.images[id]) melde('data/projekte.json', `${p.slug}: Bild ${id} fehlt`)
+  for (const id of [p.logo, p.cover, ...p.fotos, ...p.belege].filter(Boolean)) if (!imgs.images[id]) melde('data/projekte.json', `${p.slug}: Bild ${id} fehlt`)
+  if (p.cover && p.fotos.includes(p.cover)) melde('data/projekte.json', `${p.slug}: Titelbild steht doppelt in fotos`)
+  if (p.kachel !== undefined && !p.kennzahlen[p.kachel]) melde('data/projekte.json', `${p.slug}: kachel zeigt auf keine Kennzahl`)
   for (const alt of ['ausgangslage', 'schritte', 'zusatz']) if (alt in p) melde('data/projekte.json', `${p.slug}: Feld «${alt}» enthält Originaltext der Framer-Seite`)
   for (const t of [p.fall, p.umsetzung, ...p.leistungen]) {
     for (const w of verboten) if (t.toLowerCase().includes(w.toLowerCase())) melde('data/projekte.json', `${p.slug}: verbotenes Wort «${w.trim()}»`)

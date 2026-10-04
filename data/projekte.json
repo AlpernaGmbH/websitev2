@@ -65,9 +65,8 @@
       "logo": "XCtrvTrIrBubLsLsJOcKgLmjezA",
       "fall": "Der Verein lebt, aber wer nicht in der Halle stand, sah nichts davon. Turniere und Trainings blieben unter den Mitgliedern.",
       "umsetzung": "Wir haben die bestehenden Kanäle angeschaut und Ziele festgelegt. An den Turnieren haben wir gefilmt, aus dem Material 21 Beiträge geschnitten und das Posting komplett übernommen.",
-      "fotos": [
-        "VdqRHU4PjKxr2cvDqpKIUolqES4"
-      ]
+      "fotos": [],
+      "belege": []
     },
     {
       "slug": "regina-massagen",
@@ -120,13 +119,14 @@
       "fall": "Die Praxis arbeitet gut, neue Kundinnen kamen aber fast nur über Empfehlungen. Online fehlten eine Website, gutes Bildmaterial und ein sauberer Instagram-Auftritt.",
       "umsetzung": "Wir haben die Website gebaut, die Praxis fotografiert und das Instagram-Profil eingerichtet. Dazu kam das Google-Profil. Mit dem Material veröffentlicht Regina heute selbst.",
       "fotos": [
-        "NdUBVnfB4BQkp9DF5AndVDmKc2M",
         "wJYPGUV8CK54t3ZcLnaHcGx1pE",
         "nVJoeiIcPqyzVclzSKMxI9SfXg",
         "IqGYw2RlIQZI3X66BMkc2TGbFrI",
         "LzZFm9Ql58B8pNXO8T3LZztGDA",
         "kmrK6NtnaezrJyB3j0JwpTxIU8"
-      ]
+      ],
+      "belege": [],
+      "kachel": 1
     },
     {
       "slug": "gustav-kahn",
@@ -163,7 +163,8 @@
       "logo": "Ujep2EiySv7TRI6flfvn5YINg",
       "fall": "Das Restaurant liegt direkt am Hafen in Romanshorn. Auf Social Media war davon nichts zu sehen.",
       "umsetzung": "Wir haben einen Tag vor Ort gefilmt und daraus drei Reels geschnitten, die auch ohne Ton verständlich sind. Für den Betrieb blieb es bei einem Termin.",
-      "fotos": []
+      "fotos": [],
+      "belege": []
     },
     {
       "slug": "gewerbeverband-ar",
@@ -202,7 +203,9 @@
       "logo": "hZzhL8EF2npTgCspCmutUpq60",
       "fall": "Von der Sommerkonferenz gab es weder Videomaterial noch Bilder, weder für den Verband noch für die Referenten.",
       "umsetzung": "Wir haben den Abend gefilmt, ein Recap-Video geschnitten und es wenige Tage danach geliefert. An einem eigenen Stand haben wir 40 Portraits gemacht, die Referenten bekamen ihre Bühnenbilder einzeln.",
-      "fotos": []
+      "fotos": [],
+      "belege": [],
+      "kachel": 1
     },
     {
       "slug": "appenzellerland-sport",
@@ -246,11 +249,14 @@
           "url": "https://www.appenzellerlandsport.ch/"
         }
       ],
-      "cover": "j7BETm17HfWAsqe6OOZ6lZNu8",
+      "cover": null,
       "logo": "mGiMLVVpxno84gaBqaw5sgbRhBE",
       "fall": "Die Sportschule betrieb Social Media nach Bauchgefühl. Unklar war, welche Inhalte funktionieren und wer wirklich zuschaut.",
       "umsetzung": "Wir haben die Profile geprüft, anhand der Interaktionsraten die Zielgruppe ausgewertet und die Marke gecheckt. Am Ende stand ein Handlungsplan mit den nächsten Schritten.",
-      "fotos": []
+      "fotos": [],
+      "belege": [
+        "j7BETm17HfWAsqe6OOZ6lZNu8"
+      ]
     },
     {
       "slug": "lifeboost",
@@ -296,12 +302,13 @@
       "fall": "LifeBoost hat sich am Markt etabliert. Die Website passte optisch und technisch nicht mehr zum Anspruch an die eigenen Produkte.",
       "umsetzung": "Wir haben ein neues Design entwickelt, die Website umgesetzt und in zwei Wochen ohne Ausfall gestartet. Vor Ort sind 150 Fotos und über 30 Videos für Instagram entstanden.",
       "fotos": [
-        "MbQsQKSpdpjTlcR5XFJ8ZxNHwnA",
         "61ou8wh6pc8oPuJ6dnqpSkhc4VI",
         "CQhuZ8Rmiss0ZAWxgG6uvhTtWqo",
         "zqReX8kl1crDjurI28Tq1r0HrI",
         "mXphXHDAXvyDT0Lk01g2qwywZ5U"
-      ]
+      ],
+      "belege": [],
+      "kachel": 1
     },
     {
       "slug": "alex-breitenmoser",
@@ -354,7 +361,8 @@
       "logo": "7SDzcwUSokXCUZ6lyRQ36pRw9Q",
       "fall": "Alex ist Praktiker im Vertrieb. Sein Instagram-Auftritt zeigte das nicht: kein roter Faden, keine Website, keine klare Positionierung.",
       "umsetzung": "Wir haben Markt und Mitbewerber angeschaut und ihn als praktizierenden Verkäufer positioniert. Dazu kamen eine Website, Portraits, Videos und die laufende Betreuung von Instagram und YouTube. Die Reels bringen Anfragen in seine Nachrichten.",
-      "fotos": []
+      "fotos": [],
+      "belege": []
     },
     {
       "slug": "klartext-von-zwei-kanten",
@@ -406,9 +414,9 @@
       "fall": "Der Podcast hatte treue Hörer. Die Hosts erledigten aber alles selbst, von der Aufnahme bis zum Schnitt.",
       "umsetzung": "Wir haben vor Ort mit eigener Kamera und eigenem Licht aufgenommen, den Kanal als Bildungsplattform für Finanzthemen neu aufgestellt und Kurzvideos sowie Text-Posts produziert.",
       "fotos": [
-        "EhDKdyORXKoylUDOIxI7ExueQ",
         "vNYS40ND7lBFS0Lbq1u36sVsY"
-      ]
+      ],
+      "belege": []
     },
     {
       "slug": "beyond-borders-daydance",
@@ -459,7 +467,8 @@
       "logo": "KsMIJ2WDH3uz5Y13l2UC33cn300",
       "fall": "Zwei Künstler traten am Daydance gemeinsam auf und brauchten Material für ihre eigenen Kanäle.",
       "umsetzung": "Wir waren zwölf Stunden vor Ort und haben Foto und Video parallel produziert. Entstanden sind 200 Fotos, 120 Videos und ein Reel.",
-      "fotos": []
+      "fotos": [],
+      "belege": []
     },
     {
       "slug": "i-love-zero",
@@ -495,7 +504,8 @@
       "logo": "277j8XREDOfGbpR4lgZzhA8hic",
       "fall": "Die junge Kleidermarke mit Schweizer Positionierung hatte keine eigenen Aufnahmen ihrer Kollektion.",
       "umsetzung": "Am Daydance hat uns die Marke spontan angefragt. Wir haben an einem Nachmittag 40 Fotos und 15 Videos gemacht, ohne Studio, vor dem Alpstein.",
-      "fotos": []
+      "fotos": [],
+      "belege": []
     },
     {
       "slug": "nordcloud",
@@ -542,7 +552,8 @@
       "logo": "LIUzpNKbpTYlG40N55iuffk7xhU",
       "fall": "Nordcloud, Teil von IBM, hatte einen Stand an den Startup Nights in Winterthur. Für den LinkedIn-Kanal gab es vom Anlass kein Videomaterial.",
       "umsetzung": "Wir hatten die Kamera dabei und haben in rund zehn Minuten gedreht, ohne Skript. Daraus entstand ein Recap-Video fürs LinkedIn-Feed. Die Freigabe über mehrere Stellen im Konzern haben wir begleitet.",
-      "fotos": []
+      "fotos": [],
+      "belege": []
     },
     {
       "slug": "whitetail-fever",
@@ -601,11 +612,15 @@
           "url": "https://www.whitetailfever.store/"
         }
       ],
-      "cover": "M8HG0TVfF7tUFE8s4SK4shN7k",
+      "cover": null,
       "logo": "MceUeFesIxjqOxqiW3eHqZPEo",
       "fall": "Die Marke hatte ohne Werbebudget eine loyale Community aufgebaut. Das Team kam an seine Kapazitätsgrenze.",
       "umsetzung": "Wir haben die erfolgreichsten Beiträge analysiert, die Markenstimme übernommen und für Instagram, Facebook und TikTok produziert und betreut.",
-      "fotos": []
+      "fotos": [],
+      "belege": [
+        "toJ23BjoRKRSr7x9mJG28Cl845w",
+        "UpxtpzSZ9daNcDS4OYoeY7WjwYI"
+      ]
     },
     {
       "slug": "boostraft",
@@ -647,11 +662,16 @@
           "url": "https://boostraft.com"
         }
       ],
-      "cover": "BOs4lplaZQhm043RRasr1woiU4",
+      "cover": null,
       "logo": "mrg23aypWOcsg2OZJi9woYA4D2Y",
       "fall": "Boostraft startete mit 78 Followern und ohne planbare Leads. Den Inhalten fehlten ein roter Faden, eine klare Zielgruppe und ein Aufruf zum Handeln.",
       "umsetzung": "Wir haben Markt und Mitbewerber analysiert, die Marke neu aufgestellt und feste Inhaltsthemen definiert. 20 überarbeitete Beiträge mit neuen Texten brachten in 30 Tagen 412 Leads.",
-      "fotos": []
+      "fotos": [],
+      "belege": [
+        "tfVA6kTZv38B27dGNn30gyyvU",
+        "cpqCMCS8oRsDdNHJrirnCktGOE",
+        "BOs4lplaZQhm043RRasr1woiU4"
+      ]
     },
     {
       "slug": "pocket-properties-app",
@@ -689,11 +709,15 @@
       ],
       "zitat": "pocket-properties-app",
       "kundenLinks": [],
-      "cover": "IbmpNhWUDMl3Rmnp1CRwgcuAc4",
+      "cover": null,
       "logo": "1fRCMNaaHPJ1Mk8x4iMF44msZ0Q",
       "fall": "Im Fintech-Bereich zögern Kleinanleger ohne bekannte Marke. Die Technik stand, die Kommunikation fehlte.",
       "umsetzung": "Wir haben den Kanal als Bildungsplattform neu aufgestellt, die Profile optimiert sowie Text-Inhalte für X und Threads und Videos produziert. Komplexe Finanzthemen werden so verständlich erklärt.",
-      "fotos": []
+      "fotos": [],
+      "belege": [
+        "vTZoyuL0C2HVXugppG0PJ6MqG8A",
+        "tT7L8ueURYs7aQgYZBbZszzOm5g"
+      ]
     }
   ]
 }

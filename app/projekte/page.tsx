@@ -2,7 +2,8 @@ import { Headline } from '@/components/Headline'
 import { JsonLd } from '@/components/JsonLd'
 import { ProjektListe, type ListeProjekt } from '@/components/ProjektListe'
 import { projektePage } from '@/content/texte'
-import { BAUSTEIN_LABEL, projekte, type Baustein } from '@/lib/projects'
+import { bild } from '@/lib/images'
+import { BAUSTEIN_LABEL, kachelKennzahl, projekte, type Baustein } from '@/lib/projects'
 import { breadcrumbLd, seite } from '@/lib/seo'
 
 export const metadata = seite('/projekte', projektePage.meta.title, projektePage.meta.description)
@@ -15,9 +16,11 @@ export default function Projekte() {
     slug: x.slug,
     name: x.name,
     art: x.art,
+    tag: x.bausteine.map((b) => BAUSTEIN_LABEL[b]).join(' · '),
     bausteine: x.bausteine,
     bereich: x.bereich,
-    fig: x.kennzahlen[0] ?? { wert: '', label: '' },
+    cover: x.cover ? bild(x.cover) : null,
+    kpi: kachelKennzahl(x),
   }))
   const filter = REIHENFOLGE.filter((b) => projekte.some((x) => x.bausteine.includes(b))).map((b) => ({ key: b, label: BAUSTEIN_LABEL[b] }))
   return (

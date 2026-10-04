@@ -6,6 +6,7 @@ Stand: 04.10.2026. Release 1 läuft als Vorschau auf Vercel (Projekt `alperna-we
 - Design 1:1 nach Prototyp: Hero mit animierten Höhenlinien, Ticker, Aussagesatz mit Wort-Effekt, Leistungsliste, Ablauf und Team dunkel, FAQ, Kontakt, Footer mit Wortmarke. Gelb ist der einzige Akzent
 - Startseite wie der Prototyp, ohne Projekte, Logos und Zitate. Texte vom Prototyp, korrigiert nach Plan 5.4
 - Seiten: Über uns, Projekte (Liste, Filter, 14 Detailseiten), Blog (Liste, Filter, 40 Beiträge), Kontakt, Impressum, Datenschutz, 404
+- Projekte als Raster: Fotokacheln (nur echte Fotos) und dunkle Zahlenkacheln mit Höhenlinien, wo kein gutes Foto existiert. Detailseite mit Titelbild neben den Kennzahlen, Galerie, Auswertung (Screenshots als Beleg) und «Nächstes Projekt». Logos kommen nicht mehr vor
 - Projekttexte in eigenen Worten, Originaltexte der Framer-Seite aus dem Repo entfernt (`npm run check` verhindert, dass sie zurückkommen)
 - Sitemap (61 URLs), Schema, Open-Graph-Bild, Icon. Alle Bilder selbst gehostet
 - Kontaktformular als Route Handler mit Honigtopf, Begrenzung und Prüfung

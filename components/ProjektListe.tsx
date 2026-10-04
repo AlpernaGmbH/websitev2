@@ -2,15 +2,13 @@
 
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
-import { RowArrow } from '@/components/Icons'
+import { ProjektKachel, type KachelDaten } from '@/components/ProjektKachel'
 
-export type ListeProjekt = {
+export type ListeProjekt = KachelDaten & {
   slug: string
-  name: string
   art: string
   bausteine: string[]
   bereich: 'regional' | 'international'
-  fig: { wert: string; label: string }
 }
 
 type Props = {
@@ -21,22 +19,20 @@ type Props = {
   internationalText: string
 }
 
-function Zeilen({ projekte, start }: { projekte: ListeProjekt[]; start: number }) {
+function Raster({ projekte, start }: { projekte: ListeProjekt[]; start: number }) {
   return (
-    <ol className="service-list">
+    <ol className="pgrid">
       {projekte.map((p, i) => (
         <li key={p.slug}>
-          <Link className="service" href={`/projekte/${p.slug}`}>
-            <span className="service__num mono">{String(start + i + 1).padStart(2, '0')}</span>
-            <div className="service__head">
-              <h3 className="service__title">{p.name}</h3>
-              <span className="service__tag mono">{p.art}</span>
+          <Link className="ptile" href={`/projekte/${p.slug}`}>
+            <ProjektKachel name={p.name} tag={p.tag} cover={p.cover} kpi={p.kpi} index={start + i} sizes="(max-width: 640px) 92vw, (max-width: 1000px) 46vw, 31vw" />
+            <div className="ptile__meta">
+              <span className="ptile__num mono">{String(start + i + 1).padStart(2, '0')}</span>
+              <div>
+                <h3 className="ptile__name">{p.name}</h3>
+                <p className="ptile__tags mono">{p.art}</p>
+              </div>
             </div>
-            <p className="service__fig">
-              {p.fig.wert}
-              <small>{p.fig.label}</small>
-            </p>
-            <RowArrow />
           </Link>
         </li>
       ))}
@@ -58,14 +54,14 @@ export function ProjektListe({ projekte, filter, alleLabel, internationalH2, int
           </button>
         ))}
       </div>
-      <Zeilen projekte={regional} start={0} />
+      <Raster projekte={regional} start={0} />
       {international.length > 0 && (
         <>
           <div className="list-sub">
             <h2>{internationalH2}</h2>
             <p>{internationalText}</p>
           </div>
-          <Zeilen projekte={international} start={regional.length} />
+          <Raster projekte={international} start={regional.length} />
         </>
       )}
       {sichtbar.length === 0 && <p>Dazu gibt es noch kein Projekt.</p>}

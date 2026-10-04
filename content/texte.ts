@@ -198,6 +198,8 @@ export const projektePage = {
     leistungen: 'Bausteine',
     ergebnis: 'Ergebnis',
     einblicke: 'Einblicke',
+    belege: 'Auswertung',
+    naechstes: 'Nächstes Projekt',
     stimme: 'Stimme des Kunden',
     kunde: 'Mehr über den Kunden',
     ctaTitel: 'Ähnliches Projekt?',

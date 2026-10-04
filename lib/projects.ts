@@ -19,7 +19,13 @@ export type Projekt = {
   umsetzung: string
   kundenLinks: { label: string; url: string }[]
   logo: string | null
+  /** Titelbild, nur ein echtes Foto. Ohne Titelbild zeigt die Kachel eine Kennzahl. */
+  cover: string | null
+  /** Index in kennzahlen für die Zahlenkachel, Standard 0 */
+  kachel?: number
   fotos: string[]
+  /** Auswertungen und Screenshots, die die Kennzahlen belegen */
+  belege: string[]
   zitat?: string
 }
 
@@ -35,6 +41,16 @@ export const BAUSTEIN_LABEL: Record<Baustein, string> = {
 
 export function getProjekt(slug: string): Projekt | undefined {
   return projekte.find((p) => p.slug === slug)
+}
+
+/** Nächstes Projekt in der Reihenfolge der Liste, nach dem letzten wieder das erste */
+export function naechstes(slug: string): Projekt {
+  const i = projekte.findIndex((p) => p.slug === slug)
+  return projekte[(i + 1) % projekte.length]
+}
+
+export function kachelKennzahl(p: Projekt): Kennzahl {
+  return p.kennzahlen[p.kachel ?? 0] ?? p.kennzahlen[0]
 }
 
 export type Zitat = { projekt: string; firma: string; branche: string; text: string; fuerStartseite: boolean }
