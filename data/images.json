@@ -1,0 +1,1044 @@
+{
+ "images": {
+  "uXM9bddLaeFs92jvtvniEQANJkg": {
+   "file": "/images/brand/uXM9bddLaeFs92jvtvniEQANJkg.webp",
+   "alt": "Alperna Logo",
+   "w": 512,
+   "h": 512,
+   "group": "brand"
+  },
+  "iwaqIdZLeZXZJMqidnD3bSMSHY": {
+   "file": "/images/team/iwaqIdZLeZXZJMqidnD3bSMSHY.webp",
+   "alt": "Andrej Good, Mitgründer der Alperna GmbH",
+   "w": 933,
+   "h": 915,
+   "group": "team"
+  },
+  "hWvlDZcWO7blpdESrjYFvjl9mIM": {
+   "file": "/images/team/hWvlDZcWO7blpdESrjYFvjl9mIM.webp",
+   "alt": "Leander Züst, Mitgründer der Alperna GmbH",
+   "w": 743,
+   "h": 1000,
+   "group": "team"
+  },
+  "7ocC4v8VGyJgVTx2WIDfRm0BegY": {
+   "file": "/images/logos/7ocC4v8VGyJgVTx2WIDfRm0BegY.webp",
+   "alt": "Logo Nordlicht Wealth Management",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "hZzhL8EF2npTgCspCmutUpq60": {
+   "file": "/images/logos/hZzhL8EF2npTgCspCmutUpq60.webp",
+   "alt": "Logo Gewerbeverband AR",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "Ujep2EiySv7TRI6flfvn5YINg": {
+   "file": "/images/logos/Ujep2EiySv7TRI6flfvn5YINg.webp",
+   "alt": "Logo Gustav Kahn",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "7SDzcwUSokXCUZ6lyRQ36pRw9Q": {
+   "file": "/images/logos/7SDzcwUSokXCUZ6lyRQ36pRw9Q.webp",
+   "alt": "Logo Alex Breitenmoser",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "mGiMLVVpxno84gaBqaw5sgbRhBE": {
+   "file": "/images/logos/mGiMLVVpxno84gaBqaw5sgbRhBE.webp",
+   "alt": "Logo Appenzellerland Sport",
+   "w": 256,
+   "h": 320,
+   "group": "logos"
+  },
+  "XCtrvTrIrBubLsLsJOcKgLmjezA": {
+   "file": "/images/logos/XCtrvTrIrBubLsLsJOcKgLmjezA.webp",
+   "alt": "Logo BC Trogen Speicher",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "W4cz3Eja958cyzs6A5PpQ81fh8o": {
+   "file": "/images/logos/W4cz3Eja958cyzs6A5PpQ81fh8o.webp",
+   "alt": "Logo Klartext von 2 Kanten",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "SlH9ijItf6adStZ9chlGVWxYCRQ": {
+   "file": "/images/logos/SlH9ijItf6adStZ9chlGVWxYCRQ.webp",
+   "alt": "Logo von LifeBoost",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "XrS0vqYWXyjDJIZa7UeC1y3NOo": {
+   "file": "/images/logos/XrS0vqYWXyjDJIZa7UeC1y3NOo.webp",
+   "alt": "Logo von Massage Regina",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "VWayyyI0JBgIr8dWcrhggdW9v0": {
+   "file": "/images/illus/VWayyyI0JBgIr8dWcrhggdW9v0.webp",
+   "alt": "Illustration eines Windsacks: ein Auftritt ohne klare Richtung",
+   "w": 460,
+   "h": 300,
+   "group": "illus"
+  },
+  "FfK5CrGjxv3bOybGic2kWub54o": {
+   "file": "/images/illus/FfK5CrGjxv3bOybGic2kWub54o.webp",
+   "alt": "Illustration einer Sanduhr: zu wenig Zeit für Beiträge",
+   "w": 460,
+   "h": 300,
+   "group": "illus"
+  },
+  "nWVLpPcuSduOMRMJzC3nJm9PaY": {
+   "file": "/images/illus/nWVLpPcuSduOMRMJzC3nJm9PaY.webp",
+   "alt": "Illustration eines Gehirns: das Wissen fehlt",
+   "w": 460,
+   "h": 300,
+   "group": "illus"
+  },
+  "htHkYPlkWbM5ZTSrgQnLxMks": {
+   "file": "/images/illus/htHkYPlkWbM5ZTSrgQnLxMks.webp",
+   "alt": "Balkendiagramm mit stark schwankenden Werten: kein klarer Beleg",
+   "w": 460,
+   "h": 300,
+   "group": "illus"
+  },
+  "oNYPy0fURWDc7VvUso6eXOEHkHk": {
+   "file": "/images/galerie/oNYPy0fURWDc7VvUso6eXOEHkHk.webp",
+   "alt": "Alperna bei der Videobearbeitung am Rechner",
+   "w": 1400,
+   "h": 933,
+   "group": "galerie"
+  },
+  "GhsMxGp6HdTqtd9r0Nlx8AriKI": {
+   "file": "/images/galerie/GhsMxGp6HdTqtd9r0Nlx8AriKI.webp",
+   "alt": "Alperna bei der Content-Planung am Doppelmonitor",
+   "w": 1400,
+   "h": 933,
+   "group": "galerie"
+  },
+  "mp8j5CqDGGAkqhUookxzDPDmog": {
+   "file": "/images/galerie/mp8j5CqDGGAkqhUookxzDPDmog.webp",
+   "alt": "Alperna richtet die Kamera für ein Shooting ein",
+   "w": 1400,
+   "h": 933,
+   "group": "galerie"
+  },
+  "8ontrkfaX26syra9ZCqUkEr5yOg": {
+   "file": "/images/galerie/8ontrkfaX26syra9ZCqUkEr5yOg.webp",
+   "alt": "Alperna beim Filmen eines Interviews beim Kunden vor Ort",
+   "w": 1400,
+   "h": 933,
+   "group": "galerie"
+  },
+  "9WFbIcevBo0G7RV4XgvGLlfpUxU": {
+   "file": "/images/galerie/9WFbIcevBo0G7RV4XgvGLlfpUxU.webp",
+   "alt": "Alperna beim Videodreh mit Studiolicht",
+   "w": 1400,
+   "h": 933,
+   "group": "galerie"
+  },
+  "ZPiMlW7sfkkfeafE2MjYZPj5Y": {
+   "file": "/images/galerie/ZPiMlW7sfkkfeafE2MjYZPj5Y.webp",
+   "alt": "Alperna richtet die Kamera für ein Shooting ein",
+   "w": 1400,
+   "h": 1050,
+   "group": "galerie"
+  },
+  "0IFg4pbtSWSsFitOKr2qHxK9ms": {
+   "file": "/images/galerie/0IFg4pbtSWSsFitOKr2qHxK9ms.webp",
+   "alt": "Alperna beim Filmen eines Interviews beim Kunden vor Ort",
+   "w": 1050,
+   "h": 1400,
+   "group": "galerie"
+  },
+  "MhSYilIEfsxFrDXPacewijfsGEc": {
+   "file": "/images/galerie/MhSYilIEfsxFrDXPacewijfsGEc.webp",
+   "alt": "Alperna beim Videodreh mit Studiolicht",
+   "w": 1400,
+   "h": 1050,
+   "group": "galerie"
+  },
+  "Na1nAkRU0GLbCstnb08fUh4btZc": {
+   "file": "/images/galerie/Na1nAkRU0GLbCstnb08fUh4btZc.webp",
+   "alt": "Alperna richtet die Kamera für ein Shooting ein",
+   "w": 1050,
+   "h": 1400,
+   "group": "galerie"
+  },
+  "aDioXeYPhqQVjEHhvl9yY8HEwI": {
+   "file": "/images/galerie/aDioXeYPhqQVjEHhvl9yY8HEwI.webp",
+   "alt": "Alperna beim Filmen eines Interviews beim Kunden vor Ort",
+   "w": 1050,
+   "h": 1400,
+   "group": "galerie"
+  },
+  "qYWCJDS0N3lnlFdsvtggrGJsAL0": {
+   "file": "/images/galerie/qYWCJDS0N3lnlFdsvtggrGJsAL0.webp",
+   "alt": "Alperna beim Videodreh mit Studiolicht",
+   "w": 1050,
+   "h": 1400,
+   "group": "galerie"
+  },
+  "JGN8lrtElSfawAyRlXcSwEa3E": {
+   "file": "/images/galerie/JGN8lrtElSfawAyRlXcSwEa3E.webp",
+   "alt": "Alperna richtet die Kamera für ein Shooting ein",
+   "w": 1400,
+   "h": 1050,
+   "group": "galerie"
+  },
+  "Lj4aSgpsim9T804NDJyRwZkQoA": {
+   "file": "/images/galerie/Lj4aSgpsim9T804NDJyRwZkQoA.webp",
+   "alt": "Alperna beim Filmen eines Interviews beim Kunden vor Ort",
+   "w": 786,
+   "h": 1400,
+   "group": "galerie"
+  },
+  "VbBUvor89YKX7pyVoZAhNik0": {
+   "file": "/images/galerie/VbBUvor89YKX7pyVoZAhNik0.webp",
+   "alt": "Alperna beim Videodreh mit Studiolicht",
+   "w": 787,
+   "h": 1400,
+   "group": "galerie"
+  },
+  "SwfdReAJKAcb2pP1WuEV9g7Ltg": {
+   "file": "/images/projekte/SwfdReAJKAcb2pP1WuEV9g7Ltg.webp",
+   "alt": "Content-Strategie für Alex Breitenmoser als Übersicht",
+   "w": 1400,
+   "h": 1028,
+   "group": "projekte"
+  },
+  "8qNWZFUu1vq6EsNCEMI8WJjw": {
+   "file": "/images/projekte/8qNWZFUu1vq6EsNCEMI8WJjw.webp",
+   "alt": "Über-mich-Seite der von Alperna erstellten Website für Alex Breitenmoser",
+   "w": 1400,
+   "h": 977,
+   "group": "projekte"
+  },
+  "Ev66oFlB9S75ZwJiX6iJd23d8w": {
+   "file": "/images/projekte/Ev66oFlB9S75ZwJiX6iJd23d8w.webp",
+   "alt": "Reels-Übersicht von Alex Breitenmoser mit den erreichten Aufrufzahlen",
+   "w": 1188,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "j7BETm17HfWAsqe6OOZ6lZNu8": {
+   "file": "/images/projekte/j7BETm17HfWAsqe6OOZ6lZNu8.webp",
+   "alt": "Übersicht der Social-Media-Analyse für Appenzellerland Sport",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "kzLhI7OywQko0UiBrUPsYTbE": {
+   "file": "/images/projekte/kzLhI7OywQko0UiBrUPsYTbE.webp",
+   "alt": "Instagram-Profil des BC Trogen Speicher mit 516 Followern",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "VdqRHU4PjKxr2cvDqpKIUolqES4": {
+   "file": "/images/projekte/VdqRHU4PjKxr2cvDqpKIUolqES4.webp",
+   "alt": "Beitragsraster mit Badminton-Aufnahmen für den BC Trogen Speicher",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "KsMIJ2WDH3uz5Y13l2UC33cn300": {
+   "file": "/images/logos/KsMIJ2WDH3uz5Y13l2UC33cn300.webp",
+   "alt": "Logo Joshua Broger",
+   "w": 320,
+   "h": 232,
+   "group": "logos"
+  },
+  "ZaXKWLbaeDZY2DWl4kyMGX6hZf8": {
+   "file": "/images/projekte/ZaXKWLbaeDZY2DWl4kyMGX6hZf8.webp",
+   "alt": "Übersicht der Aufnahmen vom Daydance",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "mrg23aypWOcsg2OZJi9woYA4D2Y": {
+   "file": "/images/logos/mrg23aypWOcsg2OZJi9woYA4D2Y.webp",
+   "alt": "Logo von Boostraft, Kunde der Alperna GmbH",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "BOs4lplaZQhm043RRasr1woiU4": {
+   "file": "/images/projekte/BOs4lplaZQhm043RRasr1woiU4.webp",
+   "alt": "Follower-Wachstum von Boostraft auf 1'160, plus 626 Prozent",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "tfVA6kTZv38B27dGNn30gyyvU": {
+   "file": "/images/projekte/tfVA6kTZv38B27dGNn30gyyvU.webp",
+   "alt": "Newsletter-Kennzahlen von Boostraft mit 52,91 Prozent Öffnungsrate",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "cpqCMCS8oRsDdNHJrirnCktGOE": {
+   "file": "/images/projekte/cpqCMCS8oRsDdNHJrirnCktGOE.webp",
+   "alt": "Impressionen von Boostraft: 194'784, plus 375 Prozent",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "277j8XREDOfGbpR4lgZzhA8hic": {
+   "file": "/images/logos/277j8XREDOfGbpR4lgZzhA8hic.webp",
+   "alt": "Logo von Nordcloud, an IBM Company",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "UjOrSF53Ye1TZ8ovxnKsrLwIo": {
+   "file": "/images/projekte/UjOrSF53Ye1TZ8ovxnKsrLwIo.webp",
+   "alt": "Übersicht der Aufnahmen für I love Zero",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "vNYS40ND7lBFS0Lbq1u36sVsY": {
+   "file": "/images/projekte/vNYS40ND7lBFS0Lbq1u36sVsY.webp",
+   "alt": "Podcast-Setup für die Produktion von Klartext von zwei Kanten",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "EhDKdyORXKoylUDOIxI7ExueQ": {
+   "file": "/images/projekte/EhDKdyORXKoylUDOIxI7ExueQ.webp",
+   "alt": "Team von Klartext von zwei Kanten mit dem gedruckten Magazin",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "gDqfbCQ20O35dyTEIZPDAEKaqU": {
+   "file": "/images/projekte/gDqfbCQ20O35dyTEIZPDAEKaqU.webp",
+   "alt": "Reels-Übersicht von Klartext von zwei Kanten mit Interview-Ausschnitten",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "v2483mP5iBJH1JszTFIfaueqyI": {
+   "file": "/images/projekte/v2483mP5iBJH1JszTFIfaueqyI.webp",
+   "alt": "Mockup des von Alperna gestalteten Website-Redesigns für LifeBoost",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "gpo4HZqRaCySgBQaacSZwxkH1Uc": {
+   "file": "/images/projekte/gpo4HZqRaCySgBQaacSZwxkH1Uc.webp",
+   "alt": "Übersicht der Aufnahmen aus dem Foto-Shooting für LifeBoost",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "MbQsQKSpdpjTlcR5XFJ8ZxNHwnA": {
+   "file": "/images/projekte/MbQsQKSpdpjTlcR5XFJ8ZxNHwnA.webp",
+   "alt": "Trainingsberatung im Fitnessstudio von LifeBoost",
+   "w": 1400,
+   "h": 933,
+   "group": "projekte"
+  },
+  "61ou8wh6pc8oPuJ6dnqpSkhc4VI": {
+   "file": "/images/projekte/61ou8wh6pc8oPuJ6dnqpSkhc4VI.webp",
+   "alt": "Beratungsgespräch im Fitnessstudio von LifeBoost",
+   "w": 1400,
+   "h": 933,
+   "group": "projekte"
+  },
+  "EjivTHHLzVVpH7hLhnM8NQNrmsc": {
+   "file": "/images/projekte/EjivTHHLzVVpH7hLhnM8NQNrmsc.webp",
+   "alt": "Videoaufnahme einer Trainingseinheit im Fitnessstudio",
+   "w": 1050,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "CQhuZ8Rmiss0ZAWxgG6uvhTtWqo": {
+   "file": "/images/projekte/CQhuZ8Rmiss0ZAWxgG6uvhTtWqo.webp",
+   "alt": "Krafttraining mit Hantelscheibe bei LifeBoost",
+   "w": 1400,
+   "h": 933,
+   "group": "projekte"
+  },
+  "zqReX8kl1crDjurI28Tq1r0HrI": {
+   "file": "/images/projekte/zqReX8kl1crDjurI28Tq1r0HrI.webp",
+   "alt": "Personal Training mit Kurzhantel bei LifeBoost",
+   "w": 1400,
+   "h": 933,
+   "group": "projekte"
+  },
+  "mXphXHDAXvyDT0Lk01g2qwywZ5U": {
+   "file": "/images/projekte/mXphXHDAXvyDT0Lk01g2qwywZ5U.webp",
+   "alt": "Klimmzugtraining mit Trainer bei LifeBoost",
+   "w": 1400,
+   "h": 933,
+   "group": "projekte"
+  },
+  "LIUzpNKbpTYlG40N55iuffk7xhU": {
+   "file": "/images/logos/LIUzpNKbpTYlG40N55iuffk7xhU.webp",
+   "alt": "Logo von Nordcloud, an IBM Company",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "1fRCMNaaHPJ1Mk8x4iMF44msZ0Q": {
+   "file": "/images/logos/1fRCMNaaHPJ1Mk8x4iMF44msZ0Q.webp",
+   "alt": "Logo der Pocket Properties App",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "vTZoyuL0C2HVXugppG0PJ6MqG8A": {
+   "file": "/images/projekte/vTZoyuL0C2HVXugppG0PJ6MqG8A.webp",
+   "alt": "Engagement-Dashboard der Pocket Properties App",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "tT7L8ueURYs7aQgYZBbZszzOm5g": {
+   "file": "/images/projekte/tT7L8ueURYs7aQgYZBbZszzOm5g.webp",
+   "alt": "Reichweiten-Dashboard der Pocket Properties App",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "IbmpNhWUDMl3Rmnp1CRwgcuAc4": {
+   "file": "/images/projekte/IbmpNhWUDMl3Rmnp1CRwgcuAc4.webp",
+   "alt": "Reels-Übersicht der Pocket Properties App zum Thema Immobilieninvestment",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "rxg3ApgvsK5WzuVMtl9hovCLCA": {
+   "file": "/images/projekte/rxg3ApgvsK5WzuVMtl9hovCLCA.webp",
+   "alt": "Screenshots der von Alperna erstellten Website reginamassagen.ch",
+   "w": 1024,
+   "h": 697,
+   "group": "projekte"
+  },
+  "J7LleGgxrKBhIZTcOGwoEbuody4": {
+   "file": "/images/projekte/J7LleGgxrKBhIZTcOGwoEbuody4.webp",
+   "alt": "Beitragsraster mit Aufnahmen aus dem Shooting für Regina Massagen",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "SU8Ywz0l1N6ryi5p9bFqPkc3mI": {
+   "file": "/images/projekte/SU8Ywz0l1N6ryi5p9bFqPkc3mI.webp",
+   "alt": "Instagram-Profil von Regina Massagen mit 316 Followern",
+   "w": 1400,
+   "h": 788,
+   "group": "projekte"
+  },
+  "NdUBVnfB4BQkp9DF5AndVDmKc2M": {
+   "file": "/images/projekte/NdUBVnfB4BQkp9DF5AndVDmKc2M.webp",
+   "alt": "Handmassage in der Praxis von Regina Massagen im Appenzellerland",
+   "w": 1080,
+   "h": 1080,
+   "group": "projekte"
+  },
+  "wJYPGUV8CK54t3ZcLnaHcGx1pE": {
+   "file": "/images/projekte/wJYPGUV8CK54t3ZcLnaHcGx1pE.webp",
+   "alt": "Nahaufnahme einer Rückenmassage in der Praxis von Regina Massagen",
+   "w": 1080,
+   "h": 1080,
+   "group": "projekte"
+  },
+  "nVJoeiIcPqyzVclzSKMxI9SfXg": {
+   "file": "/images/projekte/nVJoeiIcPqyzVclzSKMxI9SfXg.webp",
+   "alt": "Beinmassage in der Praxis von Regina Massagen",
+   "w": 1080,
+   "h": 1080,
+   "group": "projekte"
+  },
+  "kmrK6NtnaezrJyB3j0JwpTxIU8": {
+   "file": "/images/projekte/kmrK6NtnaezrJyB3j0JwpTxIU8.webp",
+   "alt": "Portraitfoto der Inhaberin von Regina Massagen",
+   "w": 1080,
+   "h": 1080,
+   "group": "projekte"
+  },
+  "LzZFm9Ql58B8pNXO8T3LZztGDA": {
+   "file": "/images/projekte/LzZFm9Ql58B8pNXO8T3LZztGDA.webp",
+   "alt": "Behandlung in der Praxis von Regina Massagen, im Hintergrund die Zertifikate",
+   "w": 1080,
+   "h": 1080,
+   "group": "projekte"
+  },
+  "IqGYw2RlIQZI3X66BMkc2TGbFrI": {
+   "file": "/images/projekte/IqGYw2RlIQZI3X66BMkc2TGbFrI.webp",
+   "alt": "Behandlungsraum von Regina Massagen im Appenzellerland",
+   "w": 1080,
+   "h": 1080,
+   "group": "projekte"
+  },
+  "MceUeFesIxjqOxqiW3eHqZPEo": {
+   "file": "/images/logos/MceUeFesIxjqOxqiW3eHqZPEo.webp",
+   "alt": "Logo von Whitetail Fever, Kunde der Alperna GmbH",
+   "w": 320,
+   "h": 320,
+   "group": "logos"
+  },
+  "toJ23BjoRKRSr7x9mJG28Cl845w": {
+   "file": "/images/projekte/toJ23BjoRKRSr7x9mJG28Cl845w.webp",
+   "alt": "Auswertung von Whitetail Fever mit 22,5 Millionen Drei-Sekunden-Views",
+   "w": 1040,
+   "h": 874,
+   "group": "projekte"
+  },
+  "wmjJXeK9CsQBSZMVMca4WcRVTs": {
+   "file": "/images/projekte/wmjJXeK9CsQBSZMVMca4WcRVTs.webp",
+   "alt": "Instagram-Profil von Whitetail Fever mit 149'100 Followern",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "M8HG0TVfF7tUFE8s4SK4shN7k": {
+   "file": "/images/projekte/M8HG0TVfF7tUFE8s4SK4shN7k.webp",
+   "alt": "Social-Media-Beitrag für Whitetail Fever mit einem Bogenschützen im Wald",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "y0DCAfRFq9ZLkgPHHUoIr4ti6kc": {
+   "file": "/images/projekte/y0DCAfRFq9ZLkgPHHUoIr4ti6kc.webp",
+   "alt": "Profilübersicht von Whitetail Fever mit 57'600 Followern",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "UpxtpzSZ9daNcDS4OYoeY7WjwYI": {
+   "file": "/images/projekte/UpxtpzSZ9daNcDS4OYoeY7WjwYI.webp",
+   "alt": "Content-Auswertung von Whitetail Fever mit 25,7 Millionen Reichweite",
+   "w": 1400,
+   "h": 1400,
+   "group": "projekte"
+  },
+  "xYWJRT30RjcUfuNpclfs8KHbKE": {
+   "file": "/images/blog/xYWJRT30RjcUfuNpclfs8KHbKE.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "kFlJnBH4ZaCtjOoCeyK3IQ2yU": {
+   "file": "/images/blog/kFlJnBH4ZaCtjOoCeyK3IQ2yU.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "r0qshGdT3Ys313HOt8RIYWN3SM": {
+   "file": "/images/blog/r0qshGdT3Ys313HOt8RIYWN3SM.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "QOUllBEk1HL9CmSZKrFPNmDRg": {
+   "file": "/images/blog/QOUllBEk1HL9CmSZKrFPNmDRg.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "M5EIG6rn2mhKR10SHSd4PKgMAtw": {
+   "file": "/images/blog/M5EIG6rn2mhKR10SHSd4PKgMAtw.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "WQKoZydjThXU2fhL7Cu2OIPqAE4": {
+   "file": "/images/blog/WQKoZydjThXU2fhL7Cu2OIPqAE4.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "bPV57Ck4rOEtfQT3Xm1agdeasI": {
+   "file": "/images/blog/bPV57Ck4rOEtfQT3Xm1agdeasI.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "yCD3fNdemVDzRfOLVxaaSMpvXsg": {
+   "file": "/images/blog/yCD3fNdemVDzRfOLVxaaSMpvXsg.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "0I16ZpDvMAWwiW04sZZ3G5BuFU": {
+   "file": "/images/blog/0I16ZpDvMAWwiW04sZZ3G5BuFU.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "5T5AwBANpETyhBxFWH5n5xEgG8": {
+   "file": "/images/blog/5T5AwBANpETyhBxFWH5n5xEgG8.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "yyKmRyEkXZqtlsyVUbBWW7ycHk": {
+   "file": "/images/blog/yyKmRyEkXZqtlsyVUbBWW7ycHk.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "1DvDnpYQZP69pbKAWkB5ciuBM": {
+   "file": "/images/blog/1DvDnpYQZP69pbKAWkB5ciuBM.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "WMzw2Ka5zJkS07Qp5MdBxPgc1N0": {
+   "file": "/images/blog/WMzw2Ka5zJkS07Qp5MdBxPgc1N0.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "J8sy8lWeMUjv9IsMQ5hGbkMTR8": {
+   "file": "/images/blog/J8sy8lWeMUjv9IsMQ5hGbkMTR8.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "cw4qzxiA6X3zTvp95luwbBdI": {
+   "file": "/images/blog/cw4qzxiA6X3zTvp95luwbBdI.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "MUfcCG7LyDa8t3g3UJGtDv80UQ": {
+   "file": "/images/blog/MUfcCG7LyDa8t3g3UJGtDv80UQ.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "Ezn3h2cL5RPkJyty3wcPjN78OmI": {
+   "file": "/images/blog/Ezn3h2cL5RPkJyty3wcPjN78OmI.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "FkMqTinlD1lfmECqldQWG16wpww": {
+   "file": "/images/blog/FkMqTinlD1lfmECqldQWG16wpww.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "4Lx8HxrzeQYusCDzazhnQRdeYy8": {
+   "file": "/images/blog/4Lx8HxrzeQYusCDzazhnQRdeYy8.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "X8TEhanXqDUkTFoi7QABZ6cp5c": {
+   "file": "/images/blog/X8TEhanXqDUkTFoi7QABZ6cp5c.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "WIASGuqq3FRoxrnk3zjkIJDiPE": {
+   "file": "/images/blog/WIASGuqq3FRoxrnk3zjkIJDiPE.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "bZN9EJmkr9A2fhXtjXNLVTRZ9ng": {
+   "file": "/images/blog/bZN9EJmkr9A2fhXtjXNLVTRZ9ng.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "RjO2311Ao3xioBhhXiC7e4L9pD4": {
+   "file": "/images/blog/RjO2311Ao3xioBhhXiC7e4L9pD4.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "uVz8zwLma6YLH9o3Bp2TK54": {
+   "file": "/images/blog/uVz8zwLma6YLH9o3Bp2TK54.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "D7DNKfEynhFQQdQ5Xc2tHVBgtrs": {
+   "file": "/images/blog/D7DNKfEynhFQQdQ5Xc2tHVBgtrs.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "EPoc0Bowa5ocFRgl9oNly94mBaw": {
+   "file": "/images/blog/EPoc0Bowa5ocFRgl9oNly94mBaw.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "h71Q76XlFO6VaU3pcqq13RlozxQ": {
+   "file": "/images/blog/h71Q76XlFO6VaU3pcqq13RlozxQ.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "POUVXeCBTwrytd1kASbOu4HsA3o": {
+   "file": "/images/blog/POUVXeCBTwrytd1kASbOu4HsA3o.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "c9APXoUFmnNCQMuzCkfU9O2JO0": {
+   "file": "/images/blog/c9APXoUFmnNCQMuzCkfU9O2JO0.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "QuPcQZQA2HjRFh2jf6Matt6Ivlc": {
+   "file": "/images/blog/QuPcQZQA2HjRFh2jf6Matt6Ivlc.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "68BbZFoP6TWncCizh0C7RUo0mLI": {
+   "file": "/images/blog/68BbZFoP6TWncCizh0C7RUo0mLI.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "YPAAtDniVA9D7w6N4I249A1EpG4": {
+   "file": "/images/blog/YPAAtDniVA9D7w6N4I249A1EpG4.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "MejCsxtYU9IsTFJQEV0iIGdB2Ns": {
+   "file": "/images/blog/MejCsxtYU9IsTFJQEV0iIGdB2Ns.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "cABIZhoVBNmHBcVvZEmUPrDGA": {
+   "file": "/images/blog/cABIZhoVBNmHBcVvZEmUPrDGA.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "WrisKppSddrifW13OoxaiGTA7Ag": {
+   "file": "/images/blog/WrisKppSddrifW13OoxaiGTA7Ag.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "gniRiCYVUExxtzgL5LitleIOo9Q": {
+   "file": "/images/blog/gniRiCYVUExxtzgL5LitleIOo9Q.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "Dm3pn1glFNFtO036cjCwe7oPgjo": {
+   "file": "/images/blog/Dm3pn1glFNFtO036cjCwe7oPgjo.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "gIo8dXBNDpSUUlcvISIAODtJh3w": {
+   "file": "/images/blog/gIo8dXBNDpSUUlcvISIAODtJh3w.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "aWiQf5w3ODESx2baxZ1dCnapkaQ": {
+   "file": "/images/blog/aWiQf5w3ODESx2baxZ1dCnapkaQ.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "4L4Y4dkambvvtBXu7I3zKEAm9A": {
+   "file": "/images/blog/4L4Y4dkambvvtBXu7I3zKEAm9A.webp",
+   "alt": "",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "ofEFMbfc1CcAEoeTPtAhGGC5c": {
+   "file": "/images/blog/ofEFMbfc1CcAEoeTPtAhGGC5c.webp",
+   "alt": "Reichweite zählt Menschen, Aufrufe zählen Anzeigen.",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "tWDkgEPp5Iu3Zhb1JnUSJvIaylk": {
+   "file": "/images/blog/tWDkgEPp5Iu3Zhb1JnUSJvIaylk.webp",
+   "alt": "Vier Handlungen, vier sehr unterschiedliche Aussagekraft.",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "roOHEAyxRZRuPaCi6ubqMdm6Ug": {
+   "file": "/images/blog/roOHEAyxRZRuPaCi6ubqMdm6Ug.webp",
+   "alt": "Der Abbruchpunkt zeigt dir genau, welches Bild überarbeitet werden muss.",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "rcBIjPgfultSaTz1A2Vh1u1C8": {
+   "file": "/images/blog/rcBIjPgfultSaTz1A2Vh1u1C8.webp",
+   "alt": "Die Haltequote zeigt, ob dein Einstieg funktioniert.",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "Bbm3M82pynPTQMkQ5lUfb7j3Xk": {
+   "file": "/images/blog/Bbm3M82pynPTQMkQ5lUfb7j3Xk.webp",
+   "alt": "So sieht eine brauchbare Monatsübersicht aus. Mehr braucht es nicht.",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  },
+  "5Oi1FmnmIRSk01AbvqvLMogsXck": {
+   "file": "/images/blog/5Oi1FmnmIRSk01AbvqvLMogsXck.webp",
+   "alt": "Diese fünf Zahlen reichen für ein lokales Geschäft.",
+   "w": 1200,
+   "h": 675,
+   "group": "blog"
+  }
+ },
+ "projekte": {
+  "alex-breitenmoser": {
+   "cover": null,
+   "logo": "7SDzcwUSokXCUZ6lyRQ36pRw9Q",
+   "bilder": [
+    "SwfdReAJKAcb2pP1WuEV9g7Ltg",
+    "8qNWZFUu1vq6EsNCEMI8WJjw",
+    "Ev66oFlB9S75ZwJiX6iJd23d8w"
+   ]
+  },
+  "appenzellerland-sport": {
+   "cover": null,
+   "logo": "mGiMLVVpxno84gaBqaw5sgbRhBE",
+   "bilder": [
+    "j7BETm17HfWAsqe6OOZ6lZNu8"
+   ]
+  },
+  "bc-trogen-speicher": {
+   "cover": null,
+   "logo": "XCtrvTrIrBubLsLsJOcKgLmjezA",
+   "bilder": [
+    "kzLhI7OywQko0UiBrUPsYTbE",
+    "VdqRHU4PjKxr2cvDqpKIUolqES4"
+   ]
+  },
+  "beyond-borders-daydance": {
+   "cover": null,
+   "logo": "KsMIJ2WDH3uz5Y13l2UC33cn300",
+   "bilder": [
+    "ZaXKWLbaeDZY2DWl4kyMGX6hZf8"
+   ]
+  },
+  "boostraft": {
+   "cover": null,
+   "logo": "mrg23aypWOcsg2OZJi9woYA4D2Y",
+   "bilder": [
+    "BOs4lplaZQhm043RRasr1woiU4",
+    "tfVA6kTZv38B27dGNn30gyyvU",
+    "cpqCMCS8oRsDdNHJrirnCktGOE"
+   ]
+  },
+  "gewerbeverband-ar": {
+   "cover": null,
+   "logo": "hZzhL8EF2npTgCspCmutUpq60",
+   "bilder": []
+  },
+  "gustav-kahn": {
+   "cover": null,
+   "logo": "Ujep2EiySv7TRI6flfvn5YINg",
+   "bilder": []
+  },
+  "i-love-zero": {
+   "cover": null,
+   "logo": "277j8XREDOfGbpR4lgZzhA8hic",
+   "bilder": [
+    "UjOrSF53Ye1TZ8ovxnKsrLwIo"
+   ]
+  },
+  "klartext-von-zwei-kanten": {
+   "cover": null,
+   "logo": "W4cz3Eja958cyzs6A5PpQ81fh8o",
+   "bilder": [
+    "vNYS40ND7lBFS0Lbq1u36sVsY",
+    "EhDKdyORXKoylUDOIxI7ExueQ",
+    "gDqfbCQ20O35dyTEIZPDAEKaqU"
+   ]
+  },
+  "lifeboost": {
+   "cover": null,
+   "logo": "SlH9ijItf6adStZ9chlGVWxYCRQ",
+   "bilder": [
+    "v2483mP5iBJH1JszTFIfaueqyI",
+    "gpo4HZqRaCySgBQaacSZwxkH1Uc",
+    "MbQsQKSpdpjTlcR5XFJ8ZxNHwnA",
+    "61ou8wh6pc8oPuJ6dnqpSkhc4VI",
+    "EjivTHHLzVVpH7hLhnM8NQNrmsc",
+    "CQhuZ8Rmiss0ZAWxgG6uvhTtWqo",
+    "zqReX8kl1crDjurI28Tq1r0HrI",
+    "mXphXHDAXvyDT0Lk01g2qwywZ5U"
+   ]
+  },
+  "nordcloud": {
+   "cover": null,
+   "logo": "LIUzpNKbpTYlG40N55iuffk7xhU",
+   "bilder": []
+  },
+  "pocket-properties-app": {
+   "cover": null,
+   "logo": "1fRCMNaaHPJ1Mk8x4iMF44msZ0Q",
+   "bilder": [
+    "vTZoyuL0C2HVXugppG0PJ6MqG8A",
+    "tT7L8ueURYs7aQgYZBbZszzOm5g",
+    "IbmpNhWUDMl3Rmnp1CRwgcuAc4"
+   ]
+  },
+  "regina-massagen": {
+   "cover": null,
+   "logo": null,
+   "bilder": [
+    "rxg3ApgvsK5WzuVMtl9hovCLCA",
+    "J7LleGgxrKBhIZTcOGwoEbuody4",
+    "SU8Ywz0l1N6ryi5p9bFqPkc3mI",
+    "NdUBVnfB4BQkp9DF5AndVDmKc2M",
+    "wJYPGUV8CK54t3ZcLnaHcGx1pE",
+    "nVJoeiIcPqyzVclzSKMxI9SfXg",
+    "kmrK6NtnaezrJyB3j0JwpTxIU8",
+    "LzZFm9Ql58B8pNXO8T3LZztGDA",
+    "IqGYw2RlIQZI3X66BMkc2TGbFrI"
+   ]
+  },
+  "whitetail-fever": {
+   "cover": null,
+   "logo": "MceUeFesIxjqOxqiW3eHqZPEo",
+   "bilder": [
+    "toJ23BjoRKRSr7x9mJG28Cl845w",
+    "wmjJXeK9CsQBSZMVMca4WcRVTs",
+    "M8HG0TVfF7tUFE8s4SK4shN7k",
+    "y0DCAfRFq9ZLkgPHHUoIr4ti6kc",
+    "UpxtpzSZ9daNcDS4OYoeY7WjwYI"
+   ]
+  }
+ },
+ "blogCover": {
+  "anfragen-nachrichten-beantworten-kmu": "xYWJRT30RjcUfuNpclfs8KHbKE",
+  "aus-followern-kunden-kmu-anfragen": "kFlJnBH4ZaCtjOoCeyK3IQ2yU",
+  "content-ideen-fuer-handwerksbetriebe": "r0qshGdT3Ys313HOt8RIYWN3SM",
+  "content-ideen-sammeln-archivieren-kmu": "QOUllBEk1HL9CmSZKrFPNmDRg",
+  "content-saeulen-kmu-vier-themenbereiche": "M5EIG6rn2mhKR10SHSd4PKgMAtw",
+  "facebook-fuer-lokale-betriebe": "WQKoZydjThXU2fhL7Cu2OIPqAE4",
+  "fotos-mit-dem-handy-fuer-social-media": "bPV57Ck4rOEtfQT3Xm1agdeasI",
+  "google-unternehmensprofil-und-social-media": "yCD3fNdemVDzRfOLVxaaSMpvXsg",
+  "gute-hooks-fuer-kurzvideos": "0I16ZpDvMAWwiW04sZZ3G5BuFU",
+  "gutes-licht-ohne-studio-aufnahmen-im-betrieb": "5T5AwBANpETyhBxFWH5n5xEgG8",
+  "instagram-bio-kmu-optimieren": "yyKmRyEkXZqtlsyVUbBWW7ycHk",
+  "instagram-highlights-gliedern-kmu": "1DvDnpYQZP69pbKAWkB5ciuBM",
+  "instagram-insights-richtig-lesen": "WMzw2Ka5zJkS07Qp5MdBxPgc1N0",
+  "kooperationen-lokale-betriebe-sichtbarkeit-region": "J8sy8lWeMUjv9IsMQ5hGbkMTR8",
+  "kundenanfragen-als-content-quelle": "cw4qzxiA6X3zTvp95luwbBdI",
+  "kundenbewertungen-als-content-kmu-feedback": "MUfcCG7LyDa8t3g3UJGtDv80UQ",
+  "kurzvideos-schneiden-smartphone-kmu": "Ezn3h2cL5RPkJyty3wcPjN78OmI",
+  "linkedin-schweizer-kmu-lokale-betriebe": "FkMqTinlD1lfmECqldQWG16wpww",
+  "lokale-hashtags-fuer-die-ostschweiz": "4Lx8HxrzeQYusCDzazhnQRdeYy8",
+  "lokale-presse-social-media-ostschweiz": "X8TEhanXqDUkTFoi7QABZ6cp5c",
+  "lokale-reichweite-ostschweiz-kmu": "WIASGuqq3FRoxrnk3zjkIJDiPE",
+  "ortsmarkierungen-standort-tags-ostschweiz": "bZN9EJmkr9A2fhXtjXNLVTRZ9ng",
+  "posting-mix-beitraege-stories-reels-kmu": "RjO2311Ao3xioBhhXiC7e4L9pD4",
+  "produkte-dienstleistungen-im-video-zeigen": "uVz8zwLma6YLH9o3Bp2TK54",
+  "redaktionsplan-social-media-kmu": "D7DNKfEynhFQQdQ5Xc2tHVBgtrs",
+  "reels-lokale-unternehmen-videoformate": "EPoc0Bowa5ocFRgl9oNly94mBaw",
+  "regionale-veranstaltungen-sichtbarkeit-ostschweiz": "h71Q76XlFO6VaU3pcqq13RlozxQ",
+  "saisonale-anlaesse-ostschweiz-content": "POUVXeCBTwrytd1kASbOu4HsA3o",
+  "social-media-erfolge-messen-kmu": "c9APXoUFmnNCQMuzCkfU9O2JO0",
+  "social-media-im-team-aufteilen-kmu": "QuPcQZQA2HjRFh2jf6Matt6Ivlc",
+  "social-media-neben-dem-tagesgeschaeft": "68BbZFoP6TWncCizh0C7RUo0mLI",
+  "social-media-ziele-fuer-kmu-festlegen": "YPAAtDniVA9D7w6N4I249A1EpG4",
+  "standort-region-verschlagworten-ostschweiz": "MejCsxtYU9IsTFJQEV0iIGdB2Ns",
+  "stories-richtig-einsetzen-kmu-taegliche-einblicke": "cABIZhoVBNmHBcVvZEmUPrDGA",
+  "tiktok-lokale-kmu-deutschschweiz": "WrisKppSddrifW13OoxaiGTA7Ag",
+  "ton-untertitel-kurzvideos-kmu": "gniRiCYVUExxtzgL5LitleIOo9Q",
+  "vorher-nachher-videos-lokale-betriebe": "Dm3pn1glFNFtO036cjCwe7oPgjo",
+  "whatsapp-business-lokale-betriebe": "gIo8dXBNDpSUUlcvISIAODtJh3w",
+  "wie-oft-instagram-posten-kmu": "aWiQf5w3ODESx2baxZ1dCnapkaQ",
+  "zielgruppen-lokale-kmu-definieren-social-media": "4L4Y4dkambvvtBXu7I3zKEAm9A"
+ },
+ "logoMark": "uXM9bddLaeFs92jvtvniEQANJkg",
+ "logos": [
+  "hZzhL8EF2npTgCspCmutUpq60",
+  "XCtrvTrIrBubLsLsJOcKgLmjezA",
+  "mGiMLVVpxno84gaBqaw5sgbRhBE",
+  "Ujep2EiySv7TRI6flfvn5YINg",
+  "7SDzcwUSokXCUZ6lyRQ36pRw9Q",
+  "W4cz3Eja958cyzs6A5PpQ81fh8o",
+  "XrS0vqYWXyjDJIZa7UeC1y3NOo",
+  "SlH9ijItf6adStZ9chlGVWxYCRQ",
+  "7ocC4v8VGyJgVTx2WIDfRm0BegY"
+ ],
+ "galerie": [
+  "oNYPy0fURWDc7VvUso6eXOEHkHk",
+  "GhsMxGp6HdTqtd9r0Nlx8AriKI",
+  "mp8j5CqDGGAkqhUookxzDPDmog",
+  "8ontrkfaX26syra9ZCqUkEr5yOg",
+  "9WFbIcevBo0G7RV4XgvGLlfpUxU",
+  "ZPiMlW7sfkkfeafE2MjYZPj5Y",
+  "0IFg4pbtSWSsFitOKr2qHxK9ms",
+  "MhSYilIEfsxFrDXPacewijfsGEc",
+  "Na1nAkRU0GLbCstnb08fUh4btZc",
+  "aDioXeYPhqQVjEHhvl9yY8HEwI",
+  "qYWCJDS0N3lnlFdsvtggrGJsAL0",
+  "JGN8lrtElSfawAyRlXcSwEa3E",
+  "Lj4aSgpsim9T804NDJyRwZkQoA",
+  "VbBUvor89YKX7pyVoZAhNik0"
+ ],
+ "hinweis": "Erzeugt von scripts/migrate/fetch_images.py. Alt-Texte stammen von der Live-Site."
+}
