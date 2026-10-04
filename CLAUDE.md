@@ -3,14 +3,14 @@
 ## Projekt
 Neubau von www.alperna.ch. Von Framer auf Next.js (App Router) mit Tailwind, statisch generiert, gehostet auf Vercel.
 Der Prototyp (alperna-tool.vercel.app/website) ist die Design-Referenz, die Framer-Site ist die Inhalts-Referenz.
-Aktueller Stand: Phase 1, Inhalt vor Code. Siehe Phasen unten.
+Aktueller Stand: Release 1 als Vorschau auf Vercel (Projekt `alperna-website`, nicht indexiert, nicht auf der eigenen Domain). Siehe STATUS.md.
 
 Das Repo ist öffentlich. Interne Dokumente (Plan, COMPANY-MASTER, Zahlen zu Umsatz oder Kapazität) gehören nicht hinein.
 
 ## Phasen
-1. Inhalt: Texte, Projektdaten, Blog-Export, Assets. Texte liegen in `content/`, Zahlen in `site.config.ts` und `data/`.
-2. Bau Release 1: Tokens, Komponenten, Seiten, Formular, SEO, Preview-Deploy.
-3. QA, danach Go-live. Domain und DNS klärt das Team später.
+1. Inhalt: Texte, Projektdaten, Blog-Export, Bilder. Erledigt (Entwurf 1).
+2. Bau Release 1: Tokens, Komponenten, Seiten, Formular, SEO, Vorschau-Deploy. Erledigt, Videos fehlen noch.
+3. QA, danach Go-live. Domain und DNS klärt das Team später. Zum Go-live `NEXT_PUBLIC_INDEXABLE=1` setzen.
 
 Release 1 enthält nicht: CMS, Marketing-Check, Motion-Spielereien, Preisseite, Mehrsprachigkeit, Blog auf Du umschreiben.
 
@@ -50,13 +50,15 @@ Pro Kunde immer nur den nächsten Baustein vorschlagen. Retainer-Preise stehen n
 - Hintergrund Creme `#F3F1EC`, Karten und Flächen Off White `#FDFBFB`, Text Deep Black `#121110`.
 - Akzent für Links, Buttons, Akzentwort, Schlusspunkt: Signal Blue `#2F00FF`. Gold `#FFD700` nur als Marker-Strich unter einem Wort pro Sektion und im Logo, nie als Fläche oder Textfarbe.
 - Ein dunkles Band pro Seite (Footer oder CTA): Alpenblau Mitternacht `#0A0C10` bis Höhenblau `#2B3A5A`, dezentes Filmkorn.
-- Schrift Geist (Headlines und Text), Geist Mono für Koordinaten, Labels, Kennzahlen-Beschriftungen. Selbst gehostet.
+- Schrift Geist (Headlines und Text), Geist Mono für Koordinaten, Labels, Kennzahlen-Beschriftungen. Das kursive Akzentwort setzt Instrument Serif (wie im Prototyp). Alle selbst gehostet.
 - H1 per `clamp`, Desktop höchstens ca. 120 px, Mobile ca. 44 px. Höchstens ein kursives Akzentwort pro Headline.
 - Buttons als Pill: primär Signal Blue mit weissem Text, sekundär Outline Deep Black. Eingabefelder eckig, Karten Radius 0.
 - Lighthouse mobil: Performance über 90, Accessibility über 95.
 
 ## Technik
-- Inhalte als Dateien im Repo: Blog als MDX, Projekte aus `data/projekte.json`. Kein CMS.
+- Inhalte als Dateien im Repo: Seitentexte in `content/texte.ts`, Blog als Markdown in `content/blog/*.md` (kein MDX nötig), Projekte aus `data/projekte.json`. Kein CMS.
+- Vorschau ist nicht indexierbar: `NEXT_PUBLIC_INDEXABLE` ist ohne Wert 0. Dann gelten `noindex` im Meta-Tag, `X-Robots-Tag` und `robots.txt` mit `Disallow: /`.
+- `npm run check` (Typen, Inhaltsprüfung, Build) vor jedem Commit. Die Inhaltsprüfung (`scripts/check-content.mjs`) wendet die Schreibregeln auf `content/texte.ts` an.
 - Formular als Route Handler: Versand an kontakt@alperna.ch, parallel Webhook an n8n in die Notion-Datenbank «Kunden & Interessenten». Honeypot plus Rate Limit, kein Captcha.
 - Analytics: bestehende GA4-Property (`site.config.ts`), Events für Formular, Calendly-Klick, WhatsApp-Klick.
 - Motion: höchstens sanfte Einblendungen. Kein GSAP, Lenis, Parallax.
@@ -64,6 +66,8 @@ Pro Kunde immer nur den nächsten Baustein vorschlagen. Retainer-Preise stehen n
 - Prototyp-Dateien als Design-Vorlage unter `reference/`, sobald sie im Repo liegen. Der Prototyp auf Vercel setzt vor dem Go-live `noindex` oder wird gelöscht.
 
 ## Ordner
-- `site.config.ts`: Konstanten (Partnerzahl, Adresse, UID, Links)
-- `content/*.md`: Seitentexte, ein File pro Seite
-- `data/*.json`: Projekte und Zitate
+- `site.config.ts`: Konstanten (Partnerzahl, Adresse, UID, Preise, Links)
+- `content/texte.ts`: alle Seitentexte. `content/blog/`: 40 Beiträge. `content/legal/`: Impressum und Datenschutz der bisherigen Website
+- `data/projekte.json`, `data/testimonials.json`, `data/images.json`: Projekte, Zitate, Bildverzeichnis mit Alt-Texten
+- `scripts/migrate/`: einmalige Migration von der Framer-Site (Bilder, Blog, Projekte). Framer wird nur gelesen
+- `app/`, `components/`, `lib/`: Seiten, Bausteine, Hilfsfunktionen
