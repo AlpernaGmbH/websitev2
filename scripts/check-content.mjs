@@ -71,6 +71,15 @@ for (const p of projekte) {
   }
 }
 
+// 7 Videos: Vorschaubild vorhanden, Projekt bekannt, nur Blob-Speicher als Quelle
+const videos = JSON.parse(read('data/videos.json')).videos
+const slugsProjekte = new Set(projekte.map((p) => p.slug))
+for (const v of videos) {
+  if (!fs.existsSync(path.join(root, 'public', v.poster))) melde('data/videos.json', `${v.id}: Vorschaubild fehlt (${v.poster})`)
+  if (v.projekt && !slugsProjekte.has(v.projekt)) melde('data/videos.json', `${v.id}: Projekt ${v.projekt} unbekannt`)
+  if (v.url && !/^https:\/\/[a-z0-9]+\.public\.blob\.vercel-storage\.com\//.test(v.url)) melde('data/videos.json', `${v.id}: url zeigt nicht auf den Blob-Speicher`)
+}
+
 if (probleme.length) {
   console.error(`Inhaltsprüfung: ${probleme.length} Befund(e)`)
   for (const p of probleme) console.error(' - ' + p)

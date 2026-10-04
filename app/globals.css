@@ -409,6 +409,12 @@
   .shots img { display: block; width: 100%; height: auto; }
   .shots--belege figure { background: #fff; border: 1px solid var(--line); }
   @media (max-width: 700px) { .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } }
+  .vid { margin: 0; overflow: hidden; border-radius: clamp(12px, 1.6vw, 20px); background: var(--night); }
+  .vid video { display: block; width: 100%; height: 100%; object-fit: cover; background: var(--night); }
+  .vgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 280px)); gap: 16px; }
+  .vgrid--quer { grid-template-columns: minmax(0, 880px); }
+  .pd__stimme { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 260px); gap: 28px; align-items: start; }
+  @media (max-width: 700px) { .pd__stimme { grid-template-columns: minmax(0, 1fr); } .pd__stimme .vid { max-width: 280px; } }
   .pnext { padding-bottom: var(--section); }
   .pnext .pd__label { margin-bottom: 20px; }
   .pnext .service { border-top: 1px solid var(--line-strong); }

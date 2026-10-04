@@ -1,0 +1,23 @@
+{
+  "hinweis": "Einmalige Quellen der Videos von der bisherigen Website (Framer wird nur gelesen). Die Seite selbst bindet nie etwas von framerusercontent.com ein, sie nutzt nur die URLs aus data/videos.json.",
+  "videos": [
+    { "id": "stimme-appenzellerland-sport", "projekt": "appenzellerland-sport", "art": "stimme", "quelle": "https://framerusercontent.com/assets/tcUGRe5fRtnA8FdTeyjOopiZglU.mp4" },
+    { "id": "stimme-bc-trogen-speicher", "projekt": "bc-trogen-speicher", "art": "stimme", "quelle": "https://framerusercontent.com/assets/o2AJqYyNtKgn7jRPG2LK1SXdk.mp4" },
+    { "id": "stimme-lifeboost", "projekt": "lifeboost", "art": "stimme", "quelle": "https://framerusercontent.com/assets/eWOhmeiQLRDKkWeeTYXfj1faKgE.mp4" },
+    { "id": "klartext-1", "projekt": "klartext-von-zwei-kanten", "art": "projekt", "quelle": "https://framerusercontent.com/assets/Dw3Gru2ZZWTZbgeJOoMNaWNypuQ.mp4" },
+    { "id": "klartext-2", "projekt": "klartext-von-zwei-kanten", "art": "projekt", "quelle": "https://framerusercontent.com/assets/qm5sFl5YJb17Vd1fDZlSM5wclTQ.mp4" },
+    { "id": "klartext-3", "projekt": "klartext-von-zwei-kanten", "art": "projekt", "quelle": "https://framerusercontent.com/assets/vQ6EH7J7yr15dCjg8jIIu9Mcbys.mp4" },
+    { "id": "bc-trogen-1", "projekt": "bc-trogen-speicher", "art": "projekt", "quelle": "https://framerusercontent.com/assets/QhECyOf93uy5JBeHIatJ7NCvm3c.mp4" },
+    { "id": "bc-trogen-2", "projekt": "bc-trogen-speicher", "art": "projekt", "quelle": "https://framerusercontent.com/assets/VtmujG248ezl9yckPV99eTmBn0.mp4" },
+    { "id": "bc-trogen-3", "projekt": "bc-trogen-speicher", "art": "projekt", "quelle": "https://framerusercontent.com/assets/jCS50yp1hn2y69IxGBPdeP5o3k.mp4" },
+    { "id": "alex-1", "projekt": "alex-breitenmoser", "art": "projekt", "quelle": "https://framerusercontent.com/assets/1I7N8zryg0BXK9A5qh3ZaG4aqE.mp4" },
+    { "id": "alex-2", "projekt": "alex-breitenmoser", "art": "projekt", "quelle": "https://framerusercontent.com/assets/3DIQ9Hlxcj8pNonQn8yODgfNd5M.mp4" },
+    { "id": "alex-3", "projekt": "alex-breitenmoser", "art": "projekt", "quelle": "https://framerusercontent.com/assets/C3GKDNnL0wwLYFPdgyDfxkGW44.mp4" },
+    { "id": "gustav-1", "projekt": "gustav-kahn", "art": "projekt", "quelle": "https://framerusercontent.com/assets/4m55uEurtKPMzxzN6vN7EtS4.mp4" },
+    { "id": "gustav-2", "projekt": "gustav-kahn", "art": "projekt", "quelle": "https://framerusercontent.com/assets/dEtGtukhMhu5sqjt1F5FdM7VL8.mp4" },
+    { "id": "gustav-3", "projekt": "gustav-kahn", "art": "projekt", "quelle": "https://framerusercontent.com/assets/rAACnCRdwIRWydjkiSNOQLXlRY.mp4" },
+    { "id": "nordcloud-1", "projekt": "nordcloud", "art": "projekt", "quelle": "https://framerusercontent.com/assets/1o5fTfWtboJcb2fH9fMMYZjoU.mp4" },
+    { "id": "gewerbeverband-1", "projekt": "gewerbeverband-ar", "art": "projekt", "quelle": "https://framerusercontent.com/assets/Txw9Go8TuPmwZ0cnoiYMMPlgb54.mp4" },
+    { "id": "intro", "projekt": null, "art": "intro", "quelle": "https://framerusercontent.com/assets/k1I7KzlPhfhF8nf7SnhKBdcTw.mp4" }
+  ]
+}

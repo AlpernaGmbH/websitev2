@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "hinweis": "Erzeugt von scripts/media/videos.mjs. url bleibt leer, bis die Videos im Blob-Speicher liegen. Ohne url zeigt die Seite kein Video.",
+    "speicher": "Vercel Blob, Speicher «alperna-medien»"
+  },
+  "videos": [
+    {
+      "id": "stimme-appenzellerland-sport",
+      "projekt": "appenzellerland-sport",
+      "art": "stimme",
+      "datei": "videos/stimme-appenzellerland-sport.mp4",
+      "poster": "/images/videos/stimme-appenzellerland-sport.webp",
+      "breite": 480,
+      "hoehe": 848,
+      "dauer": 27,
+      "url": null
+    },
+    {
+      "id": "stimme-bc-trogen-speicher",
+      "projekt": "bc-trogen-speicher",
+      "art": "stimme",
+      "datei": "videos/stimme-bc-trogen-speicher.mp4",
+      "poster": "/images/videos/stimme-bc-trogen-speicher.webp",
+      "breite": 640,
+      "hoehe": 1130,
+      "dauer": 37,
+      "url": null
+    },
+    {
+      "id": "stimme-lifeboost",
+      "projekt": "lifeboost",
+      "art": "stimme",
+      "datei": "videos/stimme-lifeboost.mp4",
+      "poster": "/images/videos/stimme-lifeboost.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 30,
+      "url": null
+    },
+    {
+      "id": "klartext-1",
+      "projekt": "klartext-von-zwei-kanten",
+      "art": "projekt",
+      "datei": "videos/klartext-1.mp4",
+      "poster": "/images/videos/klartext-1.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 28,
+      "url": null
+    },
+    {
+      "id": "klartext-2",
+      "projekt": "klartext-von-zwei-kanten",
+      "art": "projekt",
+      "datei": "videos/klartext-2.mp4",
+      "poster": "/images/videos/klartext-2.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 31,
+      "url": null
+    },
+    {
+      "id": "klartext-3",
+      "projekt": "klartext-von-zwei-kanten",
+      "art": "projekt",
+      "datei": "videos/klartext-3.mp4",
+      "poster": "/images/videos/klartext-3.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 28,
+      "url": null
+    },
+    {
+      "id": "bc-trogen-1",
+      "projekt": "bc-trogen-speicher",
+      "art": "projekt",
+      "datei": "videos/bc-trogen-1.mp4",
+      "poster": "/images/videos/bc-trogen-1.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 57,
+      "url": null
+    },
+    {
+      "id": "bc-trogen-2",
+      "projekt": "bc-trogen-speicher",
+      "art": "projekt",
+      "datei": "videos/bc-trogen-2.mp4",
+      "poster": "/images/videos/bc-trogen-2.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 30,
+      "url": null
+    },
+    {
+      "id": "bc-trogen-3",
+      "projekt": "bc-trogen-speicher",
+      "art": "projekt",
+      "datei": "videos/bc-trogen-3.mp4",
+      "poster": "/images/videos/bc-trogen-3.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 47,
+      "url": null
+    },
+    {
+      "id": "alex-1",
+      "projekt": "alex-breitenmoser",
+      "art": "projekt",
+      "datei": "videos/alex-1.mp4",
+      "poster": "/images/videos/alex-1.webp",
+      "breite": 720,
+      "hoehe": 1280,
+      "dauer": 41,
+      "url": null
+    },
+    {
+      "id": "alex-2",
+      "projekt": "alex-breitenmoser",
+      "art": "projekt",
+      "datei": "videos/alex-2.mp4",
+      "poster": "/images/videos/alex-2.webp",
+      "breite": 720,
+      "hoehe": 1280,
+      "dauer": 10,
+      "url": null
+    },
+    {
+      "id": "alex-3",
+      "projekt": "alex-breitenmoser",
+      "art": "projekt",
+      "datei": "videos/alex-3.mp4",
+      "poster": "/images/videos/alex-3.webp",
+      "breite": 720,
+      "hoehe": 1280,
+      "dauer": 38,
+      "url": null
+    },
+    {
+      "id": "gustav-1",
+      "projekt": "gustav-kahn",
+      "art": "projekt",
+      "datei": "videos/gustav-1.mp4",
+      "poster": "/images/videos/gustav-1.webp",
+      "breite": 720,
+      "hoehe": 1280,
+      "dauer": 5,
+      "url": null
+    },
+    {
+      "id": "gustav-2",
+      "projekt": "gustav-kahn",
+      "art": "projekt",
+      "datei": "videos/gustav-2.mp4",
+      "poster": "/images/videos/gustav-2.webp",
+      "breite": 720,
+      "hoehe": 1280,
+      "dauer": 7,
+      "url": null
+    },
+    {
+      "id": "gustav-3",
+      "projekt": "gustav-kahn",
+      "art": "projekt",
+      "datei": "videos/gustav-3.mp4",
+      "poster": "/images/videos/gustav-3.webp",
+      "breite": 720,
+      "hoehe": 1280,
+      "dauer": 7,
+      "url": null
+    },
+    {
+      "id": "nordcloud-1",
+      "projekt": "nordcloud",
+      "art": "projekt",
+      "datei": "videos/nordcloud-1.mp4",
+      "poster": "/images/videos/nordcloud-1.webp",
+      "breite": 640,
+      "hoehe": 1138,
+      "dauer": 26,
+      "url": null
+    },
+    {
+      "id": "gewerbeverband-1",
+      "projekt": "gewerbeverband-ar",
+      "art": "projekt",
+      "datei": "videos/gewerbeverband-1.mp4",
+      "poster": "/images/videos/gewerbeverband-1.webp",
+      "breite": 1280,
+      "hoehe": 854,
+      "dauer": 55,
+      "url": null
+    },
+    {
+      "id": "intro",
+      "projekt": null,
+      "art": "intro",
+      "datei": "videos/intro.mp4",
+      "poster": "/images/videos/intro.webp",
+      "breite": 540,
+      "hoehe": 960,
+      "dauer": 92,
+      "url": null
+    }
+  ]
+}

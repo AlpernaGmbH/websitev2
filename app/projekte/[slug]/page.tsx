@@ -6,10 +6,12 @@ import type { CSSProperties } from 'react'
 import { ArrowRight, ArrowUpRight, RowArrow } from '@/components/Icons'
 import { JsonLd } from '@/components/JsonLd'
 import { ProjektKachel } from '@/components/ProjektKachel'
+import { VideoPlayer } from '@/components/VideoPlayer'
 import { projektePage } from '@/content/texte'
 import { bild } from '@/lib/images'
 import { BAUSTEIN_LABEL, getProjekt, kachelKennzahl, naechstes, projekte, zitatFuer } from '@/lib/projects'
 import { breadcrumbLd, seite } from '@/lib/seo'
+import { videosFuer } from '@/lib/videos'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -36,6 +38,9 @@ export default async function ProjektDetail({ params }: Props) {
   const d = projektePage.detail
   const zitat = zitatFuer(p.slug)
   const weiter = naechstes(p.slug)
+  const stimme = videosFuer(p.slug, 'stimme')[0]
+  const projektVideos = videosFuer(p.slug, 'projekt')
+  const quer = projektVideos[0] ? projektVideos[0].breite > projektVideos[0].hoehe : false
   const meta = [p.art, p.anlass, p.zeitraum, p.kanaele.length ? p.kanaele.join(', ') : null].filter(Boolean).join(' · ')
   const spalten = p.fotos.length <= 3 ? 3 : p.fotos.length <= 5 ? p.fotos.length : 3
   const nr = (s: string) => String(projekte.findIndex((x) => x.slug === s) + 1).padStart(2, '0')
@@ -93,15 +98,20 @@ export default async function ProjektDetail({ params }: Props) {
             </ul>
           </div>
 
-          {zitat && (
+          {(zitat || stimme) && (
             <div className="pd__sec">
               <h2 className="pd__label mono">{d.stimme}</h2>
-              <figure className="quote">
-                <blockquote>«{zitat.text}»</blockquote>
-                <figcaption className="mono">
-                  {zitat.firma}, {zitat.branche}
-                </figcaption>
-              </figure>
+              <div className={stimme && zitat ? 'pd__stimme' : undefined}>
+                {zitat && (
+                  <figure className="quote">
+                    <blockquote>«{zitat.text}»</blockquote>
+                    <figcaption className="mono">
+                      {zitat.firma}, {zitat.branche}
+                    </figcaption>
+                  </figure>
+                )}
+                {stimme && <VideoPlayer video={stimme} titel={`${p.name}: Stimme des Kunden`} />}
+              </div>
             </div>
           )}
 
@@ -144,6 +154,17 @@ export default async function ProjektDetail({ params }: Props) {
                 </figure>
               )
             })}
+          </div>
+        </section>
+      )}
+
+      {projektVideos.length > 0 && (
+        <section className="container pd__wide" aria-label={d.videos}>
+          <h2 className="pd__label mono">{d.videos}</h2>
+          <div className={quer ? 'vgrid vgrid--quer' : 'vgrid'}>
+            {projektVideos.map((v, i) => (
+              <VideoPlayer key={v.id} video={v} titel={`${p.name}, Video ${i + 1}`} />
+            ))}
           </div>
         </section>
       )}

@@ -198,6 +198,7 @@ export const projektePage = {
     leistungen: 'Bausteine',
     ergebnis: 'Ergebnis',
     einblicke: 'Einblicke',
+    videos: 'Videos',
     belege: 'Auswertung',
     naechstes: 'Nächstes Projekt',
     stimme: 'Stimme des Kunden',
